@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProviderSelectPaginationLoader renders "Load More" 1`] = `
+<button
+  aria-label="Load 50 More Results"
+  className="ui-button ui-button--primary ui-provider-select__load-more"
+  data-test-element={null}
+  disabled={false}
+  id="load-more"
+  onClick={[Function]}
+  style={Object {}}
+  type="button"
+>
+  Load 50 More Results
+</button>
+`;
+
+exports[`ProviderSelectPaginationLoader renders html empty message 1`] = `null`;
+
+exports[`ProviderSelectPaginationLoader renders null, returns no empty message 1`] = `null`;
+
+exports[`ProviderSelectPaginationLoader renders the ProviderCardLoading when loading 1`] = `
+<div
+  className="ui-provider-select__load-more--fetching"
+>
+  <div
+    className="ui-provider-card"
+  >
+    <div
+      className="ui-provider-card__info"
+    >
+      <div
+        className="ui-provider-card__detail"
+      >
+        <div
+          className="bar-loader bar-loader--tall bar-loader--semi-full mb-half"
+          id=""
+          style={Object {}}
+        />
+        <div
+          className="bar-loader bar-loader--quarter mb-half"
+          id=""
+          style={Object {}}
+        />
+        <div
+          className="bar-loader bar-loader--half mb-half"
+          id=""
+          style={Object {}}
+        />
+        <div
+          className="bar-loader bar-loader--half mb-half"
+          id=""
+          style={Object {}}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProviderSelectPaginationLoader renders the empty message 1`] = `null`;
+
+exports[`ProviderSelectPaginationLoader renders the the default empty message 1`] = `null`;

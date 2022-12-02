@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgramEligibility renders ProgramEligibility 1`] = `
+<div
+  className="program-description__eligibility"
+>
+  <div
+    className=""
+  >
+    <div
+      className="expandable-container"
+      collapsedHeight="70px"
+      controlled={true}
+      hideToggle={true}
+      id="test-expandable"
+      isOpen={true}
+      showGradient={false}
+    >
+      <h4
+        className="mb-half"
+      >
+        Eligibility
+      </h4>
+      <div
+        className="ui-form-field ui-draft-editor-field"
+      >
+        <label
+          className="ui-form-field__label sr-only top-0"
+          htmlFor="program-eligibility_text"
+          style={Object {}}
+        >
+          Eligibility
+        </label>
+        <div
+          className="html-parsed-text"
+        >
+          <p>
+            You are eligible
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <hr
+      className="ui-divider program-details__divider"
+      id=""
+      style={Object {}}
+    />
+    <h4
+      className="mb-one"
+    >
+      Client must live in the following...
+    </h4>
+  </div>
+  <div>
+    <hr
+      className="ui-divider program-details__divider"
+      id=""
+      style={Object {}}
+    />
+    <div
+      className="label-text-inline mb-one"
+    >
+      <h4
+        className="label-text-inline__label"
+      >
+        Accessibility
+        :
+      </h4>
+       
+      <span>
+        ADA accessible, Interpreter/translation services available
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProgramEligibility renders ProgramEligibility eligibility true 1`] = `
+<div
+  className="program-description__eligibility"
+>
+  <div
+    className=""
+  >
+    <div
+      className="expandable-container"
+      collapsedHeight="70px"
+      controlled={true}
+      hideToggle={true}
+      id="test-expandable"
+      isOpen={true}
+      showGradient={false}
+    >
+      <h4
+        className="mb-half"
+      >
+        Eligibility
+      </h4>
+      <div
+        className="ui-form-field ui-draft-editor-field"
+      >
+        <label
+          className="ui-form-field__label sr-only top-0"
+          htmlFor="program-eligibility_text"
+          style={Object {}}
+        >
+          Eligibility
+        </label>
+        <div
+          className="html-parsed-text"
+        >
+          <p>
+            You are eligible
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <hr
+      className="ui-divider program-details__divider"
+      id=""
+      style={Object {}}
+    />
+    <h4
+      className="mb-one"
+    >
+      Client must live in the following...
+    </h4>
+  </div>
+  <div>
+    <hr
+      className="ui-divider program-details__divider"
+      id=""
+      style={Object {}}
+    />
+    <div
+      className="label-text-inline mb-one"
+    >
+      <h4
+        className="label-text-inline__label"
+      >
+        Accessibility
+        :
+      </h4>
+       
+      <span>
+        ADA accessible, Interpreter/translation services available
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProgramEligibility renders ProgramEligibility geography true 1`] = `
+<div
+  className="program-description__eligibility"
+>
+  <div
+    className=""
+  >
+    <div
+      className="expandable-container"
+      collapsedHeight="70px"
+      controlled={true}
+      hideToggle={true}
+      id="test-expandable"
+      isOpen={true}
+      showGradient={false}
+    >
+      <h4
+        className="mb-half"
+      >
+        Eligibility
+      </h4>
+      <div
+        className="ui-form-field ui-draft-editor-field"
+      >
+        <label
+          className="ui-form-field__label sr-only top-0"
+          htmlFor="program-eligibility_text"
+          style={Object {}}
+        >
+          Eligibility
+        </label>
+        <div
+          className="html-parsed-text"
+        >
+          <p>
+            You are eligible
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <hr
+      className="ui-divider program-details__divider"
+      id=""
+      style={Object {}}
+    />
+    <h4
+      className="mb-one"
+    >
+      Client must live in the following...
+    </h4>
+  </div>
+  <div>
+    <hr
+      className="ui-divider program-details__divider"
+      id=""
+      style={Object {}}
+    />
+    <div
+      className="label-text-inline mb-one"
+    >
+      <h4
+        className="label-text-inline__label"
+      >
+        Accessibility
+        :
+      </h4>
+       
+      <span>
+        ADA accessible, Interpreter/translation services available
+      </span>
+    </div>
+  </div>
+</div>
+`;

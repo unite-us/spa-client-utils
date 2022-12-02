@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompactPhoneNumbers renders phone numbers 1`] = `
+<div
+  className="ui-contact-information__compact-phone"
+>
+  <div
+    className="ui-provider-card__icon-text--phone"
+  >
+    <svg
+      className="ui-icon"
+      height="16px"
+      id=""
+      style={
+        Object {
+          "display": "inline-block",
+          "fill": "",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 32 32"
+      width="16px"
+    >
+      <path
+        d="M2.126 1.188c1.278-1.281 5.141-1.495 5.17-0.817 0.029 0.677 3.479 8.191 3.509 8.869s-2.274 2.987-2.948 3.663c-0.668 0.669 4.508 6.533 4.606 6.644 0.11 0.099 5.96 5.287 6.628 4.617 0.674-0.676 2.979-2.985 3.653-2.955 0.676 0.029 8.173 3.487 8.849 3.518 0.676 0.029 0.463 3.9-0.815 5.182-1.093 1.095-6.752 5.071-16.592-2.029-1.079-0.622-2.788-2.049-5.38-4.646-0.001-0.001-0.003-0.003-0.005-0.004-0.002-0.003-0.004-0.004-0.006-0.006s-0.004-0.004-0.006-0.006c-0.001-0.002-0.003-0.004-0.004-0.005-2.59-2.598-4.014-4.312-4.635-5.393-7.083-9.864-3.116-15.537-2.024-16.632z"
+      />
+    </svg>
+  </div>
+  <div
+    className="phone-number"
+  >
+    <span
+      className="phone-number__phone-type"
+      data-test-element="phone-numbers_type_0"
+    >
+      home
+      :
+       
+    </span>
+    <a
+      data-test-element="phone-numbers_link_0"
+      href="#"
+      rel="noopener noreferrer"
+      tabIndex={0}
+      target="_blank"
+    >
+      <span
+        data-test-element="phone-numbers_number_0"
+      >
+        (123) 222-1233 1
+      </span>
+    </a>
+  </div>
+  <div
+    className="phone-number"
+  >
+    <span
+      className="phone-number__phone-type"
+      data-test-element="phone-numbers_type_1"
+    >
+      work
+      :
+       
+    </span>
+    <a
+      data-test-element="phone-numbers_link_1"
+      href="#"
+      rel="noopener noreferrer"
+      tabIndex={0}
+      target="_blank"
+    >
+      <span
+        data-test-element="phone-numbers_number_1"
+      >
+        (123) 456-7890
+      </span>
+    </a>
+  </div>
+  <div
+    className="phone-number"
+  >
+    <span
+      className="phone-number__phone-type"
+      data-test-element="phone-numbers_type_2"
+    >
+      fax
+      :
+       
+    </span>
+    <a
+      data-test-element="phone-numbers_link_2"
+      href="#"
+      rel="noopener noreferrer"
+      tabIndex={0}
+      target="_blank"
+    >
+      <span
+        data-test-element="phone-numbers_number_2"
+      >
+        (123) 123-4567
+      </span>
+    </a>
+  </div>
+  <div
+    className="phone-number__toggle"
+    data-test-element="phone-numbers_toggle"
+  >
+    <button
+      aria-label="See more"
+      className="ui-button ui-button--icon ui-button--link"
+      data-test-element={null}
+      disabled={false}
+      id=""
+      onClick={[Function]}
+      style={Object {}}
+      type="button"
+    >
+      See more
+      <span
+        className="ui-button__icon-right"
+      >
+        <svg
+          className="ui-icon"
+          height="16px"
+          id=""
+          style={
+            Object {
+              "display": "inline-block",
+              "verticalAlign": "bottom",
+            }
+          }
+          viewBox="0 0 28 28"
+          width="16px"
+        >
+          <path
+            d="M26.297 12.625l-11.594 11.578c-0.391 0.391-1.016 0.391-1.406 0l-11.594-11.578c-0.391-0.391-0.391-1.031 0-1.422l2.594-2.578c0.391-0.391 1.016-0.391 1.406 0l8.297 8.297 8.297-8.297c0.391-0.391 1.016-0.391 1.406 0l2.594 2.578c0.391 0.391 0.391 1.031 0 1.422z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;

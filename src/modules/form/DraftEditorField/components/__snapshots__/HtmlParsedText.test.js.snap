@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HtmlParsedText renders 1`] = `
+<div
+  className="html-parsed-text"
+>
+  <div>
+    <p>
+      Hello World
+    </p>
+     
+    <a
+      href="https://www.google.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      yolo
+    </a>
+  </div>
+</div>
+`;

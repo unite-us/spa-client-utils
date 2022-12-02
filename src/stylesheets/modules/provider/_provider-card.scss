@@ -1,0 +1,108 @@
+.ui-provider-card {
+  border: 1px solid $table-border-base-color;
+  border-bottom: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  word-break: break-word;
+
+  &__tooltip {
+    // This is the z-index used in the browse map. We need to equal it
+    // in order for the tooltip on the card to be visible.
+    z-index: 1501;
+  }
+
+  // TODO: Alex
+  // Temporary Styles behind feature flag
+  // Eventually will need to implement permanent styles
+  &--v2 {
+    .ui-provider-card {
+      &__oon {
+        span {
+          text-transform: inherit;
+          color: $display-color;
+        }
+      }
+
+      &__name {
+        margin-bottom: 0.5rem;
+      }
+
+      &__service-type {
+        margin-bottom: 0.75rem;
+      }
+
+      &__address-count {
+        color: $united-blue-color;
+      }
+
+      &__location {
+        .ui-location__content{
+          line-height: 1.7;
+        }
+      }
+    }
+  }
+
+  &__oon {
+    margin-bottom: 3px;
+
+    .ui-icon {
+      top: -2px;
+      position: relative;
+    }
+
+    span {
+      text-transform: uppercase;
+      color: $active-color;
+    }
+  }
+
+  &__service-area-icon {
+    float: right;
+    height: 100px;
+    width: 20%;
+  }
+
+  &__url {
+    word-break: break-all;
+  }
+
+  &:last-child {
+    border-bottom: 1px solid $table-border-base-color;
+  }
+
+  &__info {
+    flex: 1 1 auto;
+    padding: 16px;
+
+    &-disabled {
+      opacity: 0.5;
+    }
+  }
+
+  .ui-icon {
+    flex: 0 0 16px;
+  }
+
+  &__name {
+    font-family: $avenir-roman;
+    font-size: $h1;
+    font-weight: normal;
+    margin-bottom: 3px;
+  }
+
+  &__service-type {
+    color: $eggplant-color;
+    font-size: $h4;
+    margin-bottom: 6px;
+  }
+
+  .mb-quarter {
+    margin-bottom: 0.33em;
+  }
+
+  &__hours {
+    display: flex;
+  }
+}

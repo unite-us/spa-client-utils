@@ -1,0 +1,12 @@
+.ui-filter-section {
+  &__label {
+    margin-bottom: 5px;
+  }
+  .ui-filter,
+  .ui-geo-filter__filter {
+    margin-bottom: 16px;
+    .ui-form-field__error {
+      display: none;
+    }
+  }
+}

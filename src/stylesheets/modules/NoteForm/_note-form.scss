@@ -1,0 +1,65 @@
+.ui-note-form {
+  min-width: 300px;
+
+  &__action-btns {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .ui-interaction-type-field {
+    &__interaction {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    &__interaction-date-field {
+      margin-right: 20px;
+    }
+
+    &__duration-field {
+      max-width: 200px;
+    }
+  }
+
+  .ui-radio-field {
+    &__label {
+      margin-bottom: 1px;
+    }
+
+    .ui-form-field__error {
+      display: none;
+    }
+  }
+
+  .ui-service-provided-field {
+    display: flex;
+    justify-content: space-between;
+
+    &__service-provided-type-field,
+    &__amount-field {
+      margin-right: 20px;
+    }
+
+    &__unit-field,
+    &__amount-field {
+      flex: 0 1 30%;
+    }
+
+    &__service-provided-type-field {
+      flex: 1 1 40%;
+      min-width: 200px;
+    }
+  }
+
+  @media all and (max-width: 600px) {
+    .ui-service-provided-field {
+      flex-flow: column wrap;
+
+      &__service-provided-type-field,
+      &__amount-field,
+      &__unit-field {
+        margin-right: 0px;
+      }
+    }
+  }
+}

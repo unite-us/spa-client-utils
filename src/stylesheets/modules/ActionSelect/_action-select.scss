@@ -1,0 +1,158 @@
+.ui-action-select {
+  min-width: 240px;
+
+  .choices {
+    &__button {
+      display: none;
+    }
+
+    &__inner {
+      background: $display-color !important;
+      padding: 0;
+    }
+
+    &__item {
+      padding-top: 7px;
+      padding-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    &__placeholder {
+      color: $white;
+      opacity: inherit;
+      text-transform: uppercase;
+    }
+
+    &__list--single {
+      color: $white;
+      text-align: center;
+
+      &:hover {
+        background: lighten($display-color, 10%);
+      }
+    }
+
+    &:after {
+      margin-top: -4.5px;
+    }
+  }
+
+  .primary {
+    .choices {
+      &__inner {
+        background: $united-blue-color !important;
+      }
+
+      &__placeholder {
+        color: $white;
+      }
+
+      &__list--single {
+        color: $white;
+        text-align: center;
+
+        &:hover {
+          background: lighten($united-blue-color, 10%);
+        }
+      }
+    }
+  }
+
+  .action-select-container {
+    display: flex;
+    font-size: 12px;
+
+    &.shadow {
+      box-shadow: 1px 1px 1px $table-border-color;
+    }
+
+    // Remove concept of error and hint fields for ActionSelect
+    .ui-form-field {
+      margin-bottom: 0;
+
+      &__error,
+      &__hint {
+        display: none;
+      }
+    }
+  }
+
+  .confirmation-block-wrapper {
+    text-align: right;
+  }
+
+  .confirmation-block {
+    align-items: center;
+    border: 1px solid $table-border-color;
+    display: flex;
+    float: right;
+    height: 33px;
+    margin-top: 1px;
+
+    &.shadow {
+      box-shadow: 1px 1px 1px $table-border-color;
+    }
+
+    .confirm-button,
+    .cancel-button {
+      height: 20px;
+      line-height: 20px;
+      flex: 0 0 auto;
+
+      &__icon {
+        svg {
+          height: 20px !important;
+          padding: 2px 4px;
+        }
+      }
+    }
+
+    .confirm-button {
+      &__icon {
+        svg {
+          fill: $grass-color !important;
+          &:hover {
+            fill: darken($grass-color, 20%) !important;
+          }
+        }
+      }
+    }
+
+    .cancel-button {
+      &__icon {
+        svg {
+          fill: $rosso-color !important;
+          border-left: 1px solid $table-border-color;
+          &:hover {
+            fill: darken($rosso-color, 20%) !important;
+          }
+        }
+      }
+
+      .disabled {
+        svg {
+          fill: $table-border-color !important;
+          &:hover {
+            fill: $table-border-color !important;
+          }
+        }
+      }
+    }
+
+    .spinner-wrapper {
+      width: 32px;
+      flex: 0 0 auto;
+      text-align: center;
+      margin-top: 9px;
+
+      svg {
+        height: 16px !important;
+        width: 16px !important;
+      }
+
+      .spinner-container {
+        display: inline;
+      }
+    }
+  }
+}

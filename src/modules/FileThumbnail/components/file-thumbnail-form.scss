@@ -1,0 +1,15 @@
+// For the readme example
+
+.file-thumbnail-form {
+  display: flex;
+  min-width: 300px;
+  margin-left: 3px;
+
+  &__icon {
+    margin-bottom: 25px;
+  }
+
+  &__select {
+    min-width: 280px;
+  }
+}

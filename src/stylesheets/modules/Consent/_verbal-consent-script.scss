@@ -1,0 +1,24 @@
+.verbal-consent-script {
+  margin-top: 20px;
+
+  p {
+    line-height: 1.5em;
+  }
+  &__heavy {
+    font-weight: bold;
+  }
+  ul {
+    margin-bottom: 20px;
+    li {
+      margin: 16px 0;
+      padding-left: 6px;
+    }
+  }
+}
+
+.consent-text-script {
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+  }
+}

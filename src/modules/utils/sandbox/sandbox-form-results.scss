@@ -1,0 +1,28 @@
+.sandbox-form-results {
+  &__component{
+    max-width: 350px;
+  }
+
+  h5 {
+    margin-bottom: 5px;
+  }
+
+  hr {
+    background-color: #e8e8e8;
+    border: 0;
+    height: 1px;
+    margin: 1.5rem 0;
+    width: 100%;
+  }
+
+  pre {
+    background-color: ghostwhite;
+    border-radius: 3px;
+    border: 1px solid #e8e8e8;
+    color: darkslategray;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 2px 0;
+    padding: 10px 20px;
+  }
+}

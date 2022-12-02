@@ -1,0 +1,43 @@
+$provider-select-border: 1px solid $table-border-base-color;
+
+.ui-provider-select {
+  border: $provider-select-border;
+  max-height: 500px;
+  overflow-y: auto;
+  width: 100%;
+
+
+  .ui-provider-card {
+    border-left: none;
+    border-right: none;
+
+    &:first-child {
+      border-top: none;
+    }
+
+    &:last-child {
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+      border-bottom: none;
+    }
+
+    &:only-child {
+      border: none;
+    }
+  }
+
+  &__load-more {
+    border-radius: 0;
+    border-top: $provider-select-border;
+    width: 30%;
+    transform: translateX(245px);
+
+    &--fetching {
+      border-top: $provider-select-border;
+
+      &:only-child {
+        border-top: none;
+      }
+    }
+  }
+}

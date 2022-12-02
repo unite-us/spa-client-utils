@@ -1,0 +1,46 @@
+.location-address-field {
+  &__address-field {
+    position: relative;
+  }
+
+  &__dropdown {
+    position: absolute;
+    width: 100%;
+    top: auto;
+    transform: translateY(-27px);
+    background: $white;
+    border: 1px solid $field-border-color;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+
+  &__dropdown-close-btn {
+    position: absolute;
+    top: 25px;
+    right: 1rem;
+  }
+
+  &__dropdown-item {
+    padding: 1rem;
+    border-bottom: 1px solid $field-border-color;
+    cursor: pointer;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &--no-matches {
+      cursor: default;
+    }
+
+    .ui-icon {
+      vertical-align: text-top !important;
+      margin-right: 1rem;
+    }
+
+    &:hover {
+      background: $cloud-blue-color;
+    }
+  }
+}

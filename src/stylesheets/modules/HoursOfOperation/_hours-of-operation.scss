@@ -1,0 +1,58 @@
+.ui-hours-of-operation,
+.ui-hours-of-operation-today {
+  .ui-hours-of-operation-day {
+    align-items: flex-start;
+    display: flex;
+
+    &__day-label {
+      color: $display-color;
+      display: inline-block;
+      text-transform: capitalize;
+      width: 30px;
+    }
+
+    &__hours {
+      color: $display-color;
+      display: inline-block;
+    }
+
+    &__toggle {
+      align-self: flex-start;
+    }
+
+    &--link:first-child > div{
+      color: $united-blue-color !important;
+      cursor: pointer;
+    }
+  }
+
+  &--today-only {
+    .ui-hours-of-operation-day__day-label {
+      width: unset;
+    }
+  }
+}
+
+.ui-hours-of-operation-v2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+
+    &__title {
+      flex: 0 0 auto;
+    }
+
+    &__content {
+      flex: 1 1 auto;
+      margin-left: 5px;
+    }
+
+    &__spacer {
+      width: 16px;
+    }
+
+  .ui-icon {
+    position: relative;
+    top: -2px;
+  }
+}

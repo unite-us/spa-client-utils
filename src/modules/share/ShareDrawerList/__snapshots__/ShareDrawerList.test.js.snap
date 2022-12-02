@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShareDrawerList renders list 1`] = `
+<ul
+  className="share-drawer-list additional-class"
+>
+  <li
+    className="share-drawer-list-item"
+  >
+    One
+  </li>
+  <li
+    className="share-drawer-list-item"
+  >
+    Two
+  </li>
+  <li
+    className="share-drawer-list-item"
+  >
+    Three
+  </li>
+</ul>
+`;
+
+exports[`ShareDrawerList renders list with custom item properties 1`] = `
+<ul
+  className="share-drawer-list additional-class"
+>
+  <li
+    className="share-drawer-list-item"
+  >
+    One
+  </li>
+  <li
+    className="share-drawer-list-item"
+  >
+    Two
+  </li>
+  <li
+    className="share-drawer-list-item"
+  >
+    Three
+  </li>
+</ul>
+`;

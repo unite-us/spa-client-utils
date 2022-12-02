@@ -1,0 +1,28 @@
+.note-disclosure {
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  background-color: $cloud-blue-color;
+  padding: 20px;
+  padding-left: 5px;
+
+  &__icon {
+    flex: 0 0 5%;
+  }
+
+  &__text {
+    flex: 0 0 95%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .note-disclosure {
+    &__icon {
+      flex: 0 0 10%;
+    }
+    
+    &__text {
+      flex: 0 0 90%;
+    }
+  }
+}

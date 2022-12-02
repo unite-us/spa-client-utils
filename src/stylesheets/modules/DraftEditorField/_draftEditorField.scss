@@ -1,0 +1,78 @@
+// Draft js styles
+
+.RichEditor-root {
+  @include avenir-roman;
+  background: transparent;
+  border: 1px solid $field-border-color;
+}
+
+.RichEditor-editor {
+  border-bottom: 1px solid $field-border-color;
+  cursor: text;
+  padding: 15px;
+}
+
+.RichEditor-editor .public-DraftEditor-content {
+  min-height: 100px;
+}
+
+.RichEditor-root.read-only {
+  border: none;
+
+  .RichEditor-editor {
+    border-bottom: none;
+    padding: 0;
+  }
+
+  .public-DraftEditor-content {
+    min-height: 20px;
+  }
+}
+
+.RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+  display: none;
+}
+
+.public-DraftEditorPlaceholder-root {
+  position: absolute;
+}
+
+.RichEditor-controls {
+  @include avenir-roman;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+.RichEditor-styleButton {
+  margin-top: 5px;
+  color: $silver-color;
+  cursor: pointer;
+  margin-right: 8px;
+  padding: 2px 8px;
+  display: inline-block;
+}
+
+.RichEditor-activeButton {
+  color: $active-color;
+}
+
+.RichEditor-styleButton.bold {
+  font-weight: bold;
+}
+
+.RichEditor-styleButton.italic {
+  font-style: italic;
+}
+.RichEditor-styleButton.underline {
+  text-decoration: underline;
+}
+
+.Select-menu-outer {
+  z-index: 10;
+}
+
+.ui-draft-editor-field {
+  .html-parsed-text * {
+    line-height: 1.5;
+  }
+}

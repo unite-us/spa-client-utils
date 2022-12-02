@@ -1,0 +1,16 @@
+.ui-contact-information {
+
+  & > * {
+    display: flex;
+  }
+
+  &__phone {
+    text-transform: capitalize;
+  }
+
+  &__icon-text {
+    &--website {
+      word-break: break-all;
+    }
+  }
+}

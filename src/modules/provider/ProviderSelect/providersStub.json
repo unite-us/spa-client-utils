@@ -1,0 +1,2508 @@
+[
+  {
+    "id": "24c47f99-fd19-4640-bc96-0e9f90742d46",
+    "name": "Autos 3 CC",
+    "description": "<h2><u><strong>hello</strong></u></h2><h2><br></h2><h2><strong>bello !</strong></h2><p><br></p><p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod &nbsp;tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim &nbsp;veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea &nbsp;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate &nbsp;velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint &nbsp;occaecat cupidatat non proident, sunt in culpa qui officia deserunt &nbsp;mollit anim id est laborum.\"</p><p><br></p><p><br></p><p><br></p>",
+    "logo_url": "https://s3.amazonaws.com/cdn-public-v3-uudev/group/24c47f99-fd19-4640-bc96-0e9f90742d46/logo/13eede693248e0743ec6537f22db7b41-medium.png",
+    "website_url": "http://three.auto.org",
+    "is_verified": false,
+    "created_at": 1492093518,
+    "updated_at": 1559152745,
+    "addresses": [{
+      "id": "9bf2ae15-1754-4b0c-8af0-8c0dfa182f71",
+      "line_1": "467 Moody Street",
+      "line_2": "",
+      "city": "Waltham",
+      "state": "MA",
+      "postal_code": "02453",
+      "country": "USA",
+      "address_type": "work",
+      "is_mailing_address": false,
+      "county": "Middlesex County",
+      "lat_lng": [ 42.3682235,-71.2398932 ],
+      "_meta": {
+        "_type": "groups_address"
+      }
+    }],
+    "phone_numbers": [{
+      "id": "444a5668-4e2c-4374-b816-617d664064eb",
+      "phone_number": "1234567890",
+      "is_primary": "0",
+      "phone_type": "fax",
+      "country_code": "1",
+      "can_sms": true,
+      "_meta": {
+        "_type": "groups_phonenumber"
+      }
+    }],
+    "hours_of_operation": [{
+      "day_of_week": "monday",
+      "hours_of_operation": [{
+        "opens_at": 540,
+        "closes_at": 1020
+      }]
+    }, {
+      "day_of_week": "tuesday",
+      "hours_of_operation": [{
+        "opens_at": 640,
+        "closes_at": 1150
+      }]
+    }, {
+      "day_of_week": "wednesday",
+      "hours_of_operation": [{
+        "opens_at": 530,
+        "closes_at": 1240
+      }]
+    }, {
+      "day_of_week": "thursday",
+      "hours_of_operation": [{
+        "opens_at": 810,
+        "closes_at": 1550
+      }]
+    }, {
+      "day_of_week": "friday",
+      "hours_of_operation": [{
+        "opens_at": 1240,
+        "closes_at": 1610
+      }]
+    }],
+    "service_types": [
+      {
+        "id": "50126fcb-a3e9-45d5-9a8e-c32b7fd810b4",
+        "code": "UU-BENEFITS",
+        "name": "Benefits",
+        "definition": null,
+        "updated_at": 1559152745,
+        "children": [
+          {
+            "id": "2ac1bb8f-89a1-44b9-9e24-9af3cec8a2de",
+            "code": "UU-BENEFITS-BENEFITS-ELIGIBILITY-SCREENING",
+            "name": "Benefits Eligibility Screening",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "3e3aef24-f58d-493e-a604-8fe87019b142",
+            "code": "UU-BENEFITS-DISABILITY-BENEFITS",
+            "name": "Disability Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "68a5c4a6-dca5-4c8a-b934-cd2e89bfc5b3",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS",
+            "name": "Health Insurance/Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "2430b334-1d68-43ec-905c-36b5b2c2953b",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS-E-G-MEDICARE-MEDICAID-PROGRAMS",
+            "name": "Health Insurance/Benefits (e.g. Medicare & Medicaid programs)",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "295a1c49-43b7-4cbd-b695-8de303cb97fa",
+            "code": "UU-BENEFITS-ID-DOCUMENTATION-ASSISTANCE",
+            "name": "ID/Documentation Assistance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "7cc14f7d-7901-466c-9ccd-52caeaa6b8fc",
+            "code": "UU-BENEFITS-IMMIGRATION-SERVICES",
+            "name": "Immigration Services",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "b7141fab-f70c-450f-9ad5-fdac74e9a138",
+            "code": "UU-BENEFITS-INCOME-SUPPORT",
+            "name": "Income Support",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "e27814ee-9c84-4d4a-9fb2-0d7f98a034f6",
+            "code": "UU-BENEFITS-SNAP-WIC-NUTRITION-BENEFITS",
+            "name": "SNAP/WIC/Nutrition Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "9d65dac9-0720-40bf-85ec-5d4120f63502",
+            "code": "UU-BENEFITS-UNEMPLOYMENT-INSURANCE",
+            "name": "Unemployment Insurance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "203f0aff-92d9-459e-838a-ba51416ddcf7",
+            "code": "UU-BENEFITS-VETERANS-BENEFITS",
+            "name": "Veterans Benefits ",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "c088b0bd-9d90-4aaf-9841-ff29bf6311b3",
+        "code": "UU-CLOTHING",
+        "name": "Clothing & Household Goods",
+        "definition": null,
+        "updated_at": 1559152745,
+        "children": [
+          {
+            "id": "1e97fbbb-4975-4cb9-91c3-202a514ab689",
+            "code": "UU-CLOTHING-APPLIANCES",
+            "name": "Appliances",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "3f0451b8-d0ae-4c51-8ed1-ba975fc7d353",
+            "code": "UU-CLOTHING-BABY-SUPPLIES-FURNITURE",
+            "name": "Baby Supplies/Furniture",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "23702103-e2eb-4601-9e5e-e83a6c143e64",
+            "code": "UU-CLOTHING-CLOTHING",
+            "name": "Clothing",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "4e821771-94f6-4bc6-9256-482d67085455",
+            "code": "UU-CLOTHING-FURNITURE",
+            "name": "Furniture",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "bde2e2cd-07cc-41a4-b32d-94e21d261963",
+            "code": "UU-CLOTHING-HOUSEWARE-COOKWARE",
+            "name": "Houseware/Cookware",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "a5227f86-d697-4bec-aafa-1865dbdcb02a",
+            "code": "UU-CLOTHING-MOBILE-DEVICES",
+            "name": "Mobile Devices",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "ea094ca8-df6c-41ef-a75a-d763516beafd",
+            "code": "UU-CLOTHING-PERSONAL-HOUSEHOLD-GOODS",
+            "name": "Personal & Household Goods",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      }
+    ],
+    "programs": [
+      {
+        "id": "3352dad0-4179-40d7-8963-93a466350832",
+        "name": "Referred Out of Network",
+        "is_default": true,
+        "_meta": {
+          "_type": "groups_programs_defaultprogram"
+        }
+      },
+      {
+        "id": "e9b54493-1fb3-4544-b6a8-350b12afa125",
+        "name": "Test Parents",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      },
+      {
+        "id": "34b66eb3-da40-4d0e-b1fb-df437a3f078a",
+        "name": "Third of three",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      },
+      {
+        "id": "424bf90b-9e00-48e4-b179-6bbd216278fe",
+        "name": "Additional - 1",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      },
+      {
+        "id": "fd07ca1b-688b-4739-9777-3ee1adc5a9a1",
+        "name": "Auto3 Program",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      }
+    ],
+    "group_type": "in_network",
+    "primary_contact_name": null,
+    "_meta": {
+      "_type": "facades_groups_referralprogram"
+    }
+  },
+  {
+    "id": "24c47f99-fd19-4640-bc96-0e9f90742d56",
+    "name": "Autos 4 CC",
+    "description": "<h2><u><strong>hello</strong></u></h2><h2><br></h2><h2><strong>bello !</strong></h2><p><br></p><p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod &nbsp;tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim &nbsp;veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea &nbsp;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate &nbsp;velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint &nbsp;occaecat cupidatat non proident, sunt in culpa qui officia deserunt &nbsp;mollit anim id est laborum.\"</p><p><br></p><p><br></p><p><br></p>",
+    "logo_url": "https://s3.amazonaws.com/cdn-public-v3-uudev/group/24c47f99-fd19-4640-bc96-0e9f90742d46/logo/13eede693248e0743ec6537f22db7b41-medium.png",
+    "website_url": "http://three.auto.org",
+    "is_verified": false,
+    "created_at": 1492093518,
+    "updated_at": 1559152745,
+    "addresses": [],
+    "phone_numbers": [],
+    "service_types": [
+      {
+        "id": "50126fcb-a3e9-45d5-9a8e-c32b7fd810b4",
+        "code": "UU-BENEFITS",
+        "name": "Benefits",
+        "definition": null,
+        "updated_at": 1559152745,
+        "children": [
+          {
+            "id": "2ac1bb8f-89a1-44b9-9e24-9af3cec8a2de",
+            "code": "UU-BENEFITS-BENEFITS-ELIGIBILITY-SCREENING",
+            "name": "Benefits Eligibility Screening",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "3e3aef24-f58d-493e-a604-8fe87019b142",
+            "code": "UU-BENEFITS-DISABILITY-BENEFITS",
+            "name": "Disability Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "68a5c4a6-dca5-4c8a-b934-cd2e89bfc5b3",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS",
+            "name": "Health Insurance/Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "2430b334-1d68-43ec-905c-36b5b2c2953b",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS-E-G-MEDICARE-MEDICAID-PROGRAMS",
+            "name": "Health Insurance/Benefits (e.g. Medicare & Medicaid programs)",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "295a1c49-43b7-4cbd-b695-8de303cb97fa",
+            "code": "UU-BENEFITS-ID-DOCUMENTATION-ASSISTANCE",
+            "name": "ID/Documentation Assistance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "7cc14f7d-7901-466c-9ccd-52caeaa6b8fc",
+            "code": "UU-BENEFITS-IMMIGRATION-SERVICES",
+            "name": "Immigration Services",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "b7141fab-f70c-450f-9ad5-fdac74e9a138",
+            "code": "UU-BENEFITS-INCOME-SUPPORT",
+            "name": "Income Support",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "e27814ee-9c84-4d4a-9fb2-0d7f98a034f6",
+            "code": "UU-BENEFITS-SNAP-WIC-NUTRITION-BENEFITS",
+            "name": "SNAP/WIC/Nutrition Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "9d65dac9-0720-40bf-85ec-5d4120f63502",
+            "code": "UU-BENEFITS-UNEMPLOYMENT-INSURANCE",
+            "name": "Unemployment Insurance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "203f0aff-92d9-459e-838a-ba51416ddcf7",
+            "code": "UU-BENEFITS-VETERANS-BENEFITS",
+            "name": "Veterans Benefits ",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      }
+    ],
+    "programs": [
+      {
+        "id": "3352dad0-4179-40d7-8963-93a466350832",
+        "name": "Referred Out of Network",
+        "is_default": true,
+        "_meta": {
+          "_type": "groups_programs_defaultprogram"
+        }
+      }
+    ],
+    "group_type": "in_network",
+    "primary_contact_name": null,
+    "_meta": {
+      "_type": "facades_groups_referralprogram"
+    }
+  },
+  {
+    "id": "d22290f0-e41c-4acd-b346-b76fe0409f1c",
+    "name": "Damian Test Provider",
+    "description": "Edit description ",
+    "logo_url": "https://s3.amazonaws.com/cdn-public-v3-uudev/group/d22290f0-e41c-4acd-b346-b76fe0409f1c/logo/c841f69f678bf7b0a882f0d59fb2f072-medium.png",
+    "website_url": "http://www.uniteus.com",
+    "is_verified": false,
+    "created_at": 1488810276,
+    "updated_at": 1545240945,
+    "addresses": [
+      {
+        "id": "9bf2ae15-1754-4b0c-8af0-8c0dfa182f71",
+        "line_1": "467 Moody Street",
+        "line_2": "",
+        "city": "Waltham",
+        "state": "MA",
+        "postal_code": "02453",
+        "country": "USA",
+        "address_type": "work",
+        "is_mailing_address": false,
+        "county": "Middlesex County",
+        "lat_lng": [
+          42.3682196,
+          -71.23770449999999
+        ],
+        "_meta": {
+          "_type": "groups_address"
+        }
+      }
+    ],
+    "phone_numbers": [],
+    "service_types": [
+      {
+        "id": "50126fcb-a3e9-45d5-9a8e-c32b7fd810b4",
+        "code": "UU-BENEFITS",
+        "name": "Benefits",
+        "definition": null,
+        "updated_at": 1545240945,
+        "children": [
+          {
+            "id": "2ac1bb8f-89a1-44b9-9e24-9af3cec8a2de",
+            "code": "UU-BENEFITS-BENEFITS-ELIGIBILITY-SCREENING",
+            "name": "Benefits Eligibility Screening",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "3e3aef24-f58d-493e-a604-8fe87019b142",
+            "code": "UU-BENEFITS-DISABILITY-BENEFITS",
+            "name": "Disability Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "68a5c4a6-dca5-4c8a-b934-cd2e89bfc5b3",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS",
+            "name": "Health Insurance/Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "2430b334-1d68-43ec-905c-36b5b2c2953b",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS-E-G-MEDICARE-MEDICAID-PROGRAMS",
+            "name": "Health Insurance/Benefits (e.g. Medicare & Medicaid programs)",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "295a1c49-43b7-4cbd-b695-8de303cb97fa",
+            "code": "UU-BENEFITS-ID-DOCUMENTATION-ASSISTANCE",
+            "name": "ID/Documentation Assistance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "7cc14f7d-7901-466c-9ccd-52caeaa6b8fc",
+            "code": "UU-BENEFITS-IMMIGRATION-SERVICES",
+            "name": "Immigration Services",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "b7141fab-f70c-450f-9ad5-fdac74e9a138",
+            "code": "UU-BENEFITS-INCOME-SUPPORT",
+            "name": "Income Support",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "e27814ee-9c84-4d4a-9fb2-0d7f98a034f6",
+            "code": "UU-BENEFITS-SNAP-WIC-NUTRITION-BENEFITS",
+            "name": "SNAP/WIC/Nutrition Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "9d65dac9-0720-40bf-85ec-5d4120f63502",
+            "code": "UU-BENEFITS-UNEMPLOYMENT-INSURANCE",
+            "name": "Unemployment Insurance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "203f0aff-92d9-459e-838a-ba51416ddcf7",
+            "code": "UU-BENEFITS-VETERANS-BENEFITS",
+            "name": "Veterans Benefits ",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "2935833f-af39-42b8-b760-62dbb658e71c",
+        "code": "UU-ENTREPRENEURSHIP",
+        "name": "Entrepreneurship",
+        "definition": null,
+        "updated_at": 1545240945,
+        "children": [
+          {
+            "id": "4ae8dfd8-db88-4c88-82e2-1519d4e8021c",
+            "code": "UU-ENTREPRENEURSHIP-COMMERCIAL-REAL-ESTATE",
+            "name": "Commercial Real Estate",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "c46ace25-a14f-4a7e-9717-46179b077a7c",
+            "code": "UU-ENTREPRENEURSHIP-ENTREPRENEURIAL-TRAINING",
+            "name": "Entrepreneurial Training",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "7e750d2b-0f2d-420d-b507-368888afcf65",
+            "code": "UU-ENTREPRENEURSHIP-FUNDRAISING-AND-FINANCING",
+            "name": "Fundraising and Financing",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "50092b09-12e3-4825-98e1-efdf2b284732",
+            "code": "UU-ENTREPRENEURSHIP-PRO-BONO-BUSINESS-ATTORNEYS",
+            "name": "Pro Bono Business Attorneys",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "7bcdf382-5c55-4fe8-b8d0-a9e44136bece",
+        "code": "UU-HEALTH",
+        "name": "Health",
+        "definition": null,
+        "updated_at": 1545240945,
+        "children": [],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "87702c7d-79ef-44d5-8b2a-c6bf450998f6",
+        "code": "UU-HOUSING",
+        "name": "Housing & Shelter",
+        "definition": null,
+        "updated_at": 1545240945,
+        "children": [
+          {
+            "id": "010922e4-b01a-46c8-b62f-f13ac22b79d5",
+            "code": "UU-HOUSING-ASSISTED-LIVING",
+            "name": "Assisted Living",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "a115ae9f-3b91-4959-82fd-a40898ffd52d",
+            "code": "UU-HOUSING-EMERGENCY-HOUSING",
+            "name": "Emergency Housing",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "cc853838-bf9e-4bee-989f-77946e9d2d7b",
+            "code": "UU-HOUSING-ENVIRONMENTAL-EXPOSURE-ASSESSMENT",
+            "name": "Environmental Exposure Assessment",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "613a527c-18c9-43c9-a52d-88bd72bd56de",
+            "code": "UU-HOUSING-HOME-EXPENSE-ASSISTANCE-REPAIRS",
+            "name": "Home Expense Assistance/Repairs",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "71cc6d1c-7fef-4268-a2e2-87f716e49e3c",
+            "code": "UU-HOUSING-HOME-IMPROVEMENT-ACCESSIBILITY",
+            "name": "Home Improvement/Accessibility",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "efc8bc51-bded-4ca6-bb83-5370033ddb96",
+            "code": "UU-HOUSING-HOME-LOANS-AND-FINANCING",
+            "name": "Home Loans and Financing",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "db4179a4-a455-4b41-a517-47c66e694d37",
+            "code": "UU-HOUSING-HOUSING-APPLICATIONS-RECERTIFICATION",
+            "name": "Housing Applications/Recertification",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "8517af24-c9d7-4880-9842-98bf16291f3a",
+            "code": "UU-HOUSING-HOUSING-MEDIATION-EVICTION-PREVENTION",
+            "name": "Housing Mediation & Eviction Prevention",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "f42fc9f6-543e-4bcb-872e-7db8591592b3",
+            "code": "UU-HOUSING-MOVING-ASSISTANCE",
+            "name": "Moving Assistance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "fa4fb910-9acc-485c-843f-ffc5247dc10b",
+            "code": "UU-HOUSING-PERMANENT-HOUSING-NON-SUPPORTIVE",
+            "name": "Permanent Housing (Non-supportive)",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "1688e1d0-7ff4-412e-874b-cdb547eb5395",
+            "code": "UU-HOUSING-PERMANENT-HOUSING-SUPPORTIVE",
+            "name": "Permanent Housing (Supportive)",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "3a0a17e6-3ef9-4a63-8205-a224172ae4e0",
+            "code": "UU-HOUSING-RENT-MORTGAGE-PAYMENT-ASSISTANCE",
+            "name": "Rent/Mortgage Payment Assistance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "503adec3-223a-47d0-b066-8a8aef1756ae",
+            "code": "UU-HOUSING-TRANSITIONAL-HOUSING",
+            "name": "Transitional Housing",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "16cd3af4-2cfa-4402-8b4c-7f4b2f270f0c",
+        "code": "UU-SUPPORT-SERVICES",
+        "name": "Individual & Family Support",
+        "definition": null,
+        "updated_at": 1545240945,
+        "children": [
+          {
+            "id": "8745e516-2917-43ea-a1a9-e0df8a8e79b6",
+            "code": "UU-SUPPORT-SERVICES-ADULT-DAY-PROGRAMS",
+            "name": "Adult Day Programs",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "945b36b5-2e40-4291-9416-b2d86af2c77d",
+            "code": "UU-SUPPORT-SERVICES-CAREGIVING-SERVICES",
+            "name": "Caregiving Services",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "69d54a6c-7b0c-42e4-8864-a5fb48a2b8a2",
+            "code": "UU-SUPPORT-SERVICES-CHILD-CARE",
+            "name": "Child Care",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "858d54fa-c8e9-4a91-b3a4-a1fcd2b70608",
+            "code": "UU-SUPPORT-SERVICES-ENVIRONMENTAL-MODIFICATIONS-ACCESSIBILITY",
+            "name": "Environmental Modifications/Accessibility",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "f9806f9a-0049-4233-8753-8b554eefdb12",
+            "code": "UU-SUPPORT-SERVICES-HOLIDAY-PROGRAMS",
+            "name": "Holiday Programs",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "bfe801d3-72e4-4cb4-bfd2-f29ff9fb46d0",
+            "code": "UU-SUPPORT-SERVICES-INTERPRETATION-SERVICES",
+            "name": "Interpretation Services",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "d456b1db-60e2-4405-a84e-9a39956168bf",
+            "code": "UU-SUPPORT-SERVICES-LIFE-COACHING",
+            "name": "Life Coaching",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "969918fe-053d-4585-81c0-5c33e5def6dc",
+            "code": "UU-SUPPORT-SERVICES-LIFE-INSURANCE",
+            "name": "Life Insurance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "2788dcf6-3d64-4f13-82a8-cbc6081ff19c",
+            "code": "UU-SUPPORT-SERVICES-LIFE-SKILLS-TRAINING-SUPPORT",
+            "name": "Life Skills Training & Support",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "5f57fc9e-5132-4203-a35c-f2c428f66404",
+            "code": "UU-SUPPORT-SERVICES-MENTORING",
+            "name": "Mentoring",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "8be5eaa6-56f3-4aff-a6fb-a9829e737633",
+            "code": "UU-SUPPORT-SERVICES-PARENTING-EDUCATION",
+            "name": "Parenting Education",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "1956d333-2cd2-4a15-8557-c0ae0bbca9a4",
+            "code": "UU-SUPPORT-SERVICES-PEER-SUPPORT",
+            "name": "Peer Support",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "07cc30f3-69d8-4e9f-bd4e-877a1f05b524",
+            "code": "UU-SUPPORT-SERVICES-RESPITE-CARE",
+            "name": "Respite Care",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "73352b1e-3abd-4bfa-b65d-1b896a7af730",
+            "code": "UU-SUPPORT-SERVICES-SERVICE-ANIMALS",
+            "name": "Service Animals",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "eb1b49ac-fd56-44df-a297-bec5261edd1c",
+            "code": "UU-SUPPORT-SERVICES-CASE-CARE-MANAGEMENT",
+            "name": "Social Service Case Management",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "0f14e6a9-51bf-4d10-8916-4419e4b33120",
+            "code": "UU-SUPPORT-SERVICES-SUPPORT-GROUPS",
+            "name": "Support Groups ",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "40ee374f-2915-46f6-b8ba-ca73d19525ae",
+        "code": "UU-LEGAL",
+        "name": "Legal",
+        "definition": null,
+        "updated_at": 1545240945,
+        "children": [
+          {
+            "id": "0ead417f-13b4-438d-a433-8c88648895e8",
+            "code": "BANKRUPTCY_LAW",
+            "name": "Bankruptcy Law",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "716df1fc-e762-49d4-81b2-83a2f3b67c5e",
+            "code": "BENEFITS_ADVOCACY",
+            "name": "Benefits Advocacy",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "e1ecee83-3fd6-4a16-b21b-0bc57f15a1d7",
+            "code": "CONSUMER_RIGHTS_DEBT_REPAYMENT",
+            "name": "Consumer Rights & Debt Repayment",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "78659a05-444b-4029-9838-760ed1968d8e",
+            "code": "DISABILITY_LAW",
+            "name": "Disability Law",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "5a91c5a2-2973-460e-9796-258951c5815d",
+            "code": "EDUCATION_LAW",
+            "name": "Education Law",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "12279097-a377-4f80-9179-41eda5fabbe4",
+            "code": "EMPLOYMENT_LAW",
+            "name": "Employment Law",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "5c422dbe-7595-45c0-aa5e-027f478c0093",
+            "code": "FAMILY_LAW",
+            "name": "Family Law",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "5bb1a20e-ef2c-446a-b663-91158b902057",
+            "code": "HEALTH_LAW",
+            "name": "Health Law",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "96fc3805-0c4b-4463-8cc1-d69b3ab1a4e6",
+            "code": "HOUSING_LAW",
+            "name": "Housing Law",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "3c31e491-17aa-4558-b105-04f669b19d9b",
+            "code": "IMMIGRATION_LAW",
+            "name": "Immigration Law",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "8713fa4c-8c6c-48ad-a01a-f28a83c9280b",
+        "code": "UU-SOCIAL-ENRICHMENT",
+        "name": "Social Enrichment",
+        "definition": null,
+        "updated_at": 1545240945,
+        "children": [
+          {
+            "id": "8a2bb738-fc1f-496b-b237-b48c84c222eb",
+            "code": "UU-SOCIAL-ENRICHMENT-ADVOCACY-GROUPS",
+            "name": "Advocacy Groups",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "6bba9e36-70cd-4719-b4a5-68d903e88360",
+            "code": "UU-SOCIAL-ENRICHMENT-ARTS-CRAFTS-CLASSES",
+            "name": "Arts & Crafts Classes",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "3cf907ab-8509-4283-9015-3f1bdf2d8ff2",
+            "code": "UU-SOCIAL-ENRICHMENT-COOKING-CLASSES",
+            "name": "Cooking Classes",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "b045f072-9967-44e6-a1c8-a0e545e82190",
+            "code": "UU-SOCIAL-ENRICHMENT-LEADERSHIP-DEVELOPMENT",
+            "name": "Leadership Development",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "6f6ac259-794f-47a3-b7e7-1f96e0557bed",
+            "code": "UU-SOCIAL-ENRICHMENT-MUSIC-CLASSES",
+            "name": "Music Classes",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "c8426e0e-134e-4e91-97c0-8b8b65bad113",
+            "code": "UU-SOCIAL-ENRICHMENT-PEER-TO-PEER-NETWORKING",
+            "name": "Peer to Peer Networking",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "5932d6b5-bd42-4701-8242-d35dace3755d",
+            "code": "UU-SOCIAL-ENRICHMENT-PROFESSIONAL-DEVELOPENT",
+            "name": "Professional Developent",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "6cd2af38-6759-48b5-a341-cdf6db31d400",
+            "code": "UU-SOCIAL-ENRICHMENT-SPECIAL-INTEREST-CLUBS",
+            "name": "Special Interest Clubs",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "edd7ed06-0a18-4067-9699-12f930ffb517",
+            "code": "UU-SOCIAL-ENRICHMENT-VOLUNTEER-OPPORTUNITIES",
+            "name": "Volunteer Opportunities",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "d343896f-60c3-474a-96fd-25e63e57e487",
+            "code": "UU-SOCIAL-ENRICHMENT-YOUTH-DEVELOPMENT",
+            "name": "Youth Development",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "1490a11f-3361-48ca-945e-e0350118e572",
+        "code": "UU-SPORTS",
+        "name": "Sports & Recreation",
+        "definition": null,
+        "updated_at": 1545240945,
+        "children": [
+          {
+            "id": "bd7b080a-3fed-4614-a08c-e6b697bee500",
+            "code": "UU-SPORTS-ADAPTIVE-SPORTS",
+            "name": "Adaptive Sports",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "d9fa2773-2411-404a-8475-74f7a8161357",
+            "code": "UU-SPORTS-BOATING-WATERCRAFT",
+            "name": "Boating & Watercraft",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "820b0587-ef16-49d0-98a5-098987fd54f2",
+            "code": "UU-SPORTS-DANCE-CLASSES",
+            "name": "Dance Classes",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "a7f6a164-0955-4cc7-8123-3f6de267baf0",
+            "code": "UU-SPORTS-EXERCISE-CLASSES-GROUPS",
+            "name": "Exercise Classes/Groups",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "cd98b976-2f11-45d0-8285-d739fa13f333",
+            "code": "UU-SPORTS-EXTREME-SPORTS",
+            "name": "Extreme Sports",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "bf752642-5783-4253-9ca5-859b056da76d",
+            "code": "UU-SPORTS-INDIVIDUAL-SPORTS",
+            "name": "Individual Sports",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "17f91ba6-abd3-4491-ae4f-65fa29fbd4e8",
+            "code": "UU-SPORTS-MARTIAL-ARTS",
+            "name": "Martial Arts",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "9bd2aa59-dab6-441f-9019-b918191404af",
+            "code": "UU-SPORTS-OUTDOOR-ACTIVITIES",
+            "name": "Outdoor Activities ",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "ca1d27a7-58b0-4ad8-baa9-34cec75c9dd5",
+            "code": "UU-SPORTS-SNOW-SPORTS",
+            "name": "Snow Sports",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "256f9747-dcb5-4df0-afb6-5fd0b4ae6863",
+            "code": "UU-SPORTS-TEAM-SPORTS-LEAGUES",
+            "name": "Team Sports & Leagues",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "4de07fd8-702e-452f-97b6-548c4a4717c3",
+            "code": "UU-SPORTS-WATER-SPORTS-ACTIVITIES",
+            "name": "Water Sports/Activities",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "4b6da834-1735-4fdd-9a27-868216590a4f",
+        "code": "UU-TRANSPORTATION",
+        "name": "Transportation",
+        "definition": null,
+        "updated_at": 1545240945,
+        "children": [
+          {
+            "id": "fcfaee0c-c11d-4292-81de-8d460255dfe6",
+            "code": "UU-TRANSPORTATION-RIDE-COORDINATION",
+            "name": "Ride Coordination",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "5100704a-7dae-4c75-9f52-79e9b6fc80fc",
+            "code": "UU-TRANSPORTATION-RIDES",
+            "name": "Rides",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "578b781e-6cd5-4e80-bffb-fb83e6b68afa",
+            "code": "UU-TRANSPORTATION-TRANSPORTATION-EXPENSE-ASSISTANCE",
+            "name": "Transportation Expense Assistance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "780a5c5b-2129-41f1-8d6c-47837d9151b7",
+            "code": "UU-TRANSPORTATION-TRANSPORTATION-PASSES-VOUCHERS",
+            "name": "Transportation Passes/Vouchers",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "7395ef39-c06f-4905-ab33-3e0fac4f6bb5",
+        "code": "UU-UTILITIES",
+        "name": "Utilities",
+        "definition": null,
+        "updated_at": 1545240945,
+        "children": [
+          {
+            "id": "a5f7e58a-6c65-40eb-b3b6-a5cede7b60c4",
+            "code": "UU-UTILITIES-HOME-ENERGY-UTILITIES-BENEFITS",
+            "name": "Home Energy/Utilities Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "7c0a1f24-2536-41c3-afdd-0f7ffbd469c4",
+            "code": "UU-UTILITIES-UTILITY-PAYMENT-ASSISTANCE",
+            "name": "Utility Payment Assistance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "eda495db-c773-4e53-9ddd-1c575979bb94",
+            "code": "UU-UTILITIES-UTILITY-SERVICE-CONNECTION",
+            "name": "Utility Service Connection",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      }
+    ],
+    "programs": [
+      {
+        "id": "f1a12b09-e238-4870-9e1e-7b9af59fce2e",
+        "name": "Referred Out of Network",
+        "is_default": true,
+        "_meta": {
+          "_type": "groups_programs_defaultprogram"
+        }
+      },
+      {
+        "id": "64a789a4-5752-42cf-bff2-f28770e7cd62",
+        "name": "Foobar",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      }
+    ],
+    "group_type": "in_network",
+    "primary_contact_name": null,
+    "_meta": {
+      "_type": "facades_groups_referralprogram"
+    }
+  },
+  {
+    "id": "42aa6d35-9de0-4281-90d5-7af550b96bf7",
+    "name": "Out of Network Provider",
+    "description": "<h1>Headline</h1><h2>Headline</h2><ul>  <li>UL</li></ul><ol>  <li>OL</li>  <li><br></li></ol><p><strong>Just a bold description</strong></p>\r\n\r\nThis is more\r\n\r\n\r\nand more\r\n\r\n\r\nand more\r\n",
+    "logo_url": "https://s3.amazonaws.com/cdn-public-v3-uudev/group/42aa6d35-9de0-4281-90d5-7af550b96bf7/logo/d9be24ad6db16f9d7bb8f31f2c755f36-medium.png",
+    "website_url": "https://www.omglolponiesarethemostawesomethingeverandirealyneedaverryverrylongurltotestsomething.info",
+    "is_verified": false,
+    "created_at": 1483468530,
+    "updated_at": 1558107982,
+    "addresses": [
+      {
+        "id": "6a9aa8a3-6194-4f8b-808d-fe9863952767",
+        "line_1": "240 Moody Street",
+        "line_2": "",
+        "city": "Waltham",
+        "state": "MA",
+        "postal_code": "02453",
+        "country": "USA",
+        "address_type": "work",
+        "is_mailing_address": false,
+        "county": "Middlesex County",
+        "lat_lng": [
+          42.3720195,
+          -71.2364229
+        ],
+        "_meta": {
+          "_type": "groups_address"
+        }
+      }
+    ],
+    "phone_numbers": [
+      {
+        "id": "a6d2a3be-1113-41f9-a472-a6d2692d7375",
+        "phone_number": "1112223333",
+        "is_primary": "",
+        "phone_type": "work",
+        "country_code": "1",
+        "can_sms": false,
+        "_meta": {
+          "_type": "groups_phonenumber"
+        }
+      }
+    ],
+    "service_types": [
+      {
+        "id": "50126fcb-a3e9-45d5-9a8e-c32b7fd810b4",
+        "code": "UU-BENEFITS",
+        "name": "Benefits",
+        "definition": null,
+        "updated_at": 1558107982,
+        "children": [
+          {
+            "id": "2ac1bb8f-89a1-44b9-9e24-9af3cec8a2de",
+            "code": "UU-BENEFITS-BENEFITS-ELIGIBILITY-SCREENING",
+            "name": "Benefits Eligibility Screening",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "3e3aef24-f58d-493e-a604-8fe87019b142",
+            "code": "UU-BENEFITS-DISABILITY-BENEFITS",
+            "name": "Disability Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "68a5c4a6-dca5-4c8a-b934-cd2e89bfc5b3",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS",
+            "name": "Health Insurance/Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "c088b0bd-9d90-4aaf-9841-ff29bf6311b3",
+        "code": "UU-CLOTHING",
+        "name": "Clothing & Household Goods",
+        "definition": null,
+        "updated_at": 1558107982,
+        "children": [],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "04d0aba4-d91f-4221-8823-cf5ae02e1963",
+        "code": "UU-EDUCATION",
+        "name": "Education",
+        "definition": null,
+        "updated_at": 1558107982,
+        "children": [],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "c22fe446-f131-4590-89ac-f666453c2f90",
+        "code": "UU-EMPLOYMENT",
+        "name": "Employment",
+        "definition": null,
+        "updated_at": 1558107982,
+        "children": [],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "87702c7d-79ef-44d5-8b2a-c6bf450998f6",
+        "code": "UU-HOUSING",
+        "name": "Housing & Shelter",
+        "definition": null,
+        "updated_at": 1558107982,
+        "children": [],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "16cd3af4-2cfa-4402-8b4c-7f4b2f270f0c",
+        "code": "UU-SUPPORT-SERVICES",
+        "name": "Individual & Family Support",
+        "definition": null,
+        "updated_at": 1558107982,
+        "children": [],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "c1bffbd7-98d5-4515-bf8e-e0b57578dade",
+        "code": "UU-MONEY-MANAGEMENT",
+        "name": "Money Management",
+        "definition": null,
+        "updated_at": 1558107982,
+        "children": [],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "8713fa4c-8c6c-48ad-a01a-f28a83c9280b",
+        "code": "UU-SOCIAL-ENRICHMENT",
+        "name": "Social Enrichment",
+        "definition": null,
+        "updated_at": 1558107982,
+        "children": [],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "a2b41783-c09a-4afa-a15e-4ffca7a62da7",
+        "code": "UU-SPIRITUAL",
+        "name": "Spiritual Enrichment",
+        "definition": null,
+        "updated_at": 1558107982,
+        "children": [],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "1490a11f-3361-48ca-945e-e0350118e572",
+        "code": "UU-SPORTS",
+        "name": "Sports & Recreation",
+        "definition": null,
+        "updated_at": 1558107982,
+        "children": [],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "4b6da834-1735-4fdd-9a27-868216590a4f",
+        "code": "UU-TRANSPORTATION",
+        "name": "Transportation",
+        "definition": null,
+        "updated_at": 1558107982,
+        "children": [],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "7395ef39-c06f-4905-ab33-3e0fac4f6bb5",
+        "code": "UU-UTILITIES",
+        "name": "Utilities",
+        "definition": null,
+        "updated_at": 1558107982,
+        "children": [],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      }
+    ],
+    "programs": [
+      {
+        "id": "afdecd14-4094-4f40-8afe-8f660965f577",
+        "name": "Referred Out of Network",
+        "is_default": true,
+        "_meta": {
+          "_type": "groups_programs_defaultprogram"
+        }
+      },
+      {
+        "id": "d2d25963-e202-4ac6-b79d-b2dddfe87ff0",
+        "name": "Program 5",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      },
+      {
+        "id": "c401cea2-896c-4bce-be26-3107ec733bb3",
+        "name": "Program 4",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      },
+      {
+        "id": "fc1f4845-e0c2-4003-8d1c-4a2cabbb68cf",
+        "name": "Program 1",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      },
+      {
+        "id": "f1d1316c-457a-425a-99e4-cf21aab2e99f",
+        "name": "Program 3",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      },
+      {
+        "id": "e0faa1f2-ad97-4e62-a4ae-31b58ad780e4",
+        "name": "Program 2",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      },
+      {
+        "id": "08a4bc9e-29e9-435e-82f5-b488e4d5fbd6",
+        "name": "Test Program name",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      }
+    ],
+    "group_type": "out_of_network",
+    "primary_contact_name": null,
+    "_meta": {
+      "_type": "facades_groups_referralprogram"
+    }
+  },
+  {
+    "id": "05cacb9a-00f1-4f5d-9584-a54d7ec0e216",
+    "name": "Micah OON Provider",
+    "description": null,
+    "logo_url": "https://s3.amazonaws.com/uniteus-io-assets/logos/groups/default.png",
+    "website_url": null,
+    "is_verified": false,
+    "created_at": 1548165812,
+    "updated_at": 1548175829,
+    "addresses": [
+      {
+        "id": "edde276c-4f57-472e-a5fa-599f87e89ddc",
+        "line_1": "99 Main Street",
+        "line_2": null,
+        "city": "new york",
+        "state": "NY",
+        "postal_code": "10001",
+        "country": "USA",
+        "address_type": "work",
+        "is_mailing_address": false,
+        "county": "Queens County",
+        "lat_lng": [
+          40.7557863,
+          -73.8279871
+        ],
+        "_meta": {
+          "_type": "groups_address"
+        }
+      }
+    ],
+    "phone_numbers": [
+      {
+        "id": "8ea3c33c-eeb0-4f23-a398-05a3d68f70fc",
+        "phone_number": "9999999999",
+        "is_primary": true,
+        "phone_type": "work",
+        "country_code": "1",
+        "can_sms": false,
+        "_meta": {
+          "_type": "groups_phonenumber"
+        }
+      }
+    ],
+    "service_types": [
+      {
+        "id": "50126fcb-a3e9-45d5-9a8e-c32b7fd810b4",
+        "code": "UU-BENEFITS",
+        "name": "Benefits",
+        "definition": null,
+        "updated_at": 1548175829,
+        "children": [
+          {
+            "id": "2ac1bb8f-89a1-44b9-9e24-9af3cec8a2de",
+            "code": "UU-BENEFITS-BENEFITS-ELIGIBILITY-SCREENING",
+            "name": "Benefits Eligibility Screening",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "3e3aef24-f58d-493e-a604-8fe87019b142",
+            "code": "UU-BENEFITS-DISABILITY-BENEFITS",
+            "name": "Disability Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "68a5c4a6-dca5-4c8a-b934-cd2e89bfc5b3",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS",
+            "name": "Health Insurance/Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "2430b334-1d68-43ec-905c-36b5b2c2953b",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS-E-G-MEDICARE-MEDICAID-PROGRAMS",
+            "name": "Health Insurance/Benefits (e.g. Medicare & Medicaid programs)",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "295a1c49-43b7-4cbd-b695-8de303cb97fa",
+            "code": "UU-BENEFITS-ID-DOCUMENTATION-ASSISTANCE",
+            "name": "ID/Documentation Assistance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "7cc14f7d-7901-466c-9ccd-52caeaa6b8fc",
+            "code": "UU-BENEFITS-IMMIGRATION-SERVICES",
+            "name": "Immigration Services",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "b7141fab-f70c-450f-9ad5-fdac74e9a138",
+            "code": "UU-BENEFITS-INCOME-SUPPORT",
+            "name": "Income Support",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "e27814ee-9c84-4d4a-9fb2-0d7f98a034f6",
+            "code": "UU-BENEFITS-SNAP-WIC-NUTRITION-BENEFITS",
+            "name": "SNAP/WIC/Nutrition Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "9d65dac9-0720-40bf-85ec-5d4120f63502",
+            "code": "UU-BENEFITS-UNEMPLOYMENT-INSURANCE",
+            "name": "Unemployment Insurance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "203f0aff-92d9-459e-838a-ba51416ddcf7",
+            "code": "UU-BENEFITS-VETERANS-BENEFITS",
+            "name": "Veterans Benefits ",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "c088b0bd-9d90-4aaf-9841-ff29bf6311b3",
+        "code": "UU-CLOTHING",
+        "name": "Clothing & Household Goods",
+        "definition": null,
+        "updated_at": 1548175829,
+        "children": [
+          {
+            "id": "1e97fbbb-4975-4cb9-91c3-202a514ab689",
+            "code": "UU-CLOTHING-APPLIANCES",
+            "name": "Appliances",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      },
+      {
+        "id": "04d0aba4-d91f-4221-8823-cf5ae02e1963",
+        "code": "UU-EDUCATION",
+        "name": "Education",
+        "definition": null,
+        "updated_at": 1548175829,
+        "children": [
+          {
+            "id": "45ddeb75-013b-458e-8ca5-29333e1dc1c5",
+            "code": "UU-EDUCATION-COMPUTER-TECHNOLOGY-CLASSES",
+            "name": "Computer/Technology Classes",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "557f7652-6b84-4ee8-9bbc-844e1e9a6c66",
+            "code": "UU-EDUCATION-DEGREES-CERTIFICATIONS",
+            "name": "Degrees/Certifications",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "a4a230c1-9032-43f3-8ad5-612905cdc9ff",
+            "code": "UU-EDUCATION-EARLY-CHILDHOOD-EDUCATION",
+            "name": "Early Childhood Education",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "29dd4fe0-79aa-4e8f-b36b-127c88eb56d6",
+            "code": "UU-EDUCATION-EDUCATIONAL-SUPPORT-SERVICES",
+            "name": "Educational Support Services",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "7c9552af-d1c4-4bc0-9a4f-83074c07891c",
+            "code": "UU-EDUCATION-HIGH-SCHOOL-EQUIVALENCY",
+            "name": "High School Equivalency",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "7d002546-764f-4c9a-bba7-54b6d8bad11b",
+            "code": "UU-EDUCATION-LANGUAGE-CLASSES",
+            "name": "Language Classes",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "63075c9a-4d3f-463f-bc42-eabe8894548b",
+            "code": "UU-EDUCATION-TUITION-ASSISSTANCE",
+            "name": "Tuition Assisstance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      }
+    ],
+    "programs": [
+      {
+        "id": "d95699aa-dd85-47f5-88fa-3946f46ed028",
+        "name": "Referred Out of Network",
+        "is_default": true,
+        "_meta": {
+          "_type": "groups_programs_defaultprogram"
+        }
+      },
+      {
+        "id": "521f32f3-5ff3-4c81-9b42-b8f034639da0",
+        "name": "DEFAULT",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      }
+    ],
+    "group_type": "out_of_network",
+    "primary_contact_name": "Fred",
+    "_meta": {
+      "_type": "facades_groups_referralprogram"
+    }
+  },
+  {
+    "id": "bd6e1ff5-46f6-4d9c-b3a1-23fc8bf93b23",
+    "name": "External Provider",
+    "description": "Offers financial help and information and referrals to community resources.&nbsp;",
+    "logo_url": "https://s3.amazonaws.com/uniteus-io-assets/logos/groups/default.png",
+    "website_url": "",
+    "is_verified": false,
+    "created_at": 1546641725,
+    "updated_at": 1546641729,
+    "addresses": [
+      {
+        "id": "e097aab5-be65-4318-9a13-f05f1ab8772b",
+        "line_1": "57 willow street",
+        "line_2": "",
+        "city": "waltham",
+        "state": "MA",
+        "postal_code": "02453",
+        "country": "USA",
+        "address_type": "work",
+        "is_mailing_address": false,
+        "county": "Middlesex County",
+        "lat_lng": [
+          42.3748162,
+          -71.2181125
+        ],
+        "_meta": {
+          "_type": "groups_address"
+        }
+      }
+    ],
+    "phone_numbers": [
+      {
+        "id": "8646b09d-232f-41c0-8da6-650929db47ce",
+        "phone_number": "7819999999",
+        "is_primary": true,
+        "phone_type": "work",
+        "country_code": "1",
+        "can_sms": false,
+        "_meta": {
+          "_type": "groups_phonenumber"
+        }
+      }
+    ],
+    "service_types": [
+      {
+        "id": "50126fcb-a3e9-45d5-9a8e-c32b7fd810b4",
+        "code": "UU-BENEFITS",
+        "name": "Benefits",
+        "definition": null,
+        "updated_at": 1546641729,
+        "children": [
+          {
+            "id": "2ac1bb8f-89a1-44b9-9e24-9af3cec8a2de",
+            "code": "UU-BENEFITS-BENEFITS-ELIGIBILITY-SCREENING",
+            "name": "Benefits Eligibility Screening",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "3e3aef24-f58d-493e-a604-8fe87019b142",
+            "code": "UU-BENEFITS-DISABILITY-BENEFITS",
+            "name": "Disability Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "68a5c4a6-dca5-4c8a-b934-cd2e89bfc5b3",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS",
+            "name": "Health Insurance/Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "2430b334-1d68-43ec-905c-36b5b2c2953b",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS-E-G-MEDICARE-MEDICAID-PROGRAMS",
+            "name": "Health Insurance/Benefits (e.g. Medicare & Medicaid programs)",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "295a1c49-43b7-4cbd-b695-8de303cb97fa",
+            "code": "UU-BENEFITS-ID-DOCUMENTATION-ASSISTANCE",
+            "name": "ID/Documentation Assistance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "7cc14f7d-7901-466c-9ccd-52caeaa6b8fc",
+            "code": "UU-BENEFITS-IMMIGRATION-SERVICES",
+            "name": "Immigration Services",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "b7141fab-f70c-450f-9ad5-fdac74e9a138",
+            "code": "UU-BENEFITS-INCOME-SUPPORT",
+            "name": "Income Support",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "e27814ee-9c84-4d4a-9fb2-0d7f98a034f6",
+            "code": "UU-BENEFITS-SNAP-WIC-NUTRITION-BENEFITS",
+            "name": "SNAP/WIC/Nutrition Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "9d65dac9-0720-40bf-85ec-5d4120f63502",
+            "code": "UU-BENEFITS-UNEMPLOYMENT-INSURANCE",
+            "name": "Unemployment Insurance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "203f0aff-92d9-459e-838a-ba51416ddcf7",
+            "code": "UU-BENEFITS-VETERANS-BENEFITS",
+            "name": "Veterans Benefits ",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      }
+    ],
+    "programs": [
+      {
+        "id": "08fa1e0d-58bf-4eb1-9733-f14b42919992",
+        "name": "DEFAULT",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      },
+      {
+        "id": "fea14e18-5737-4010-8387-d63b8a0d0aec",
+        "name": "Referred Out of Network",
+        "is_default": true,
+        "_meta": {
+          "_type": "groups_programs_defaultprogram"
+        }
+      }
+    ],
+    "group_type": "external_provider",
+    "primary_contact_name": "",
+    "_meta": {
+      "_type": "facades_groups_referralprogram"
+    }
+  },
+  {
+    "id": "bd6e1ff5-46f6-4d9c-b3a1-22345f93b23",
+    "name": "A Blessing, Inc. (External Provider)",
+    "description": "Offers financial help and information and referrals to community resources.&nbsp;",
+    "logo_url": "https://s3.amazonaws.com/uniteus-io-assets/logos/groups/default.png",
+    "website_url": "https://ablessinginc.org/",
+    "is_verified": false,
+    "created_at": 1546641725,
+    "updated_at": 1546641729,
+    "addresses": [
+      {
+        "id": "e097aab5-be65-4318-9a13-f05f1ab8772b",
+        "line_1": "583 Bunn Elementary School Road",
+        "line_2": "",
+        "city": "Bunn",
+        "state": "NC",
+        "postal_code": "27508",
+        "country": "USA",
+        "address_type": "work",
+        "is_mailing_address": false,
+        "county": "Middlesex County",
+        "lat_lng": [
+          42.3748162,
+          -71.2181125
+        ],
+        "_meta": {
+          "_type": "groups_address"
+        }
+      }
+    ],
+    "phone_numbers": [
+      {
+        "id": "8646b09d-232f-41c0-8da6-650929db47ce",
+        "phone_number": "7819999999",
+        "is_primary": true,
+        "phone_type": "work",
+        "country_code": "1",
+        "can_sms": false,
+        "_meta": {
+          "_type": "groups_phonenumber"
+        }
+      }
+    ],
+    "service_types": [
+      {
+        "id": "50126fcb-a3e9-45d5-9a8e-c32b7fd810b4",
+        "code": "UU-BENEFITS",
+        "name": "Benefits",
+        "definition": null,
+        "updated_at": 1546641729,
+        "children": [
+          {
+            "id": "2ac1bb8f-89a1-44b9-9e24-9af3cec8a2de",
+            "code": "UU-BENEFITS-BENEFITS-ELIGIBILITY-SCREENING",
+            "name": "Benefits Eligibility Screening",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "3e3aef24-f58d-493e-a604-8fe87019b142",
+            "code": "UU-BENEFITS-DISABILITY-BENEFITS",
+            "name": "Disability Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "68a5c4a6-dca5-4c8a-b934-cd2e89bfc5b3",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS",
+            "name": "Health Insurance/Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "2430b334-1d68-43ec-905c-36b5b2c2953b",
+            "code": "UU-BENEFITS-HEALTH-INSURANCE-BENEFITS-E-G-MEDICARE-MEDICAID-PROGRAMS",
+            "name": "Health Insurance/Benefits (e.g. Medicare & Medicaid programs)",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "295a1c49-43b7-4cbd-b695-8de303cb97fa",
+            "code": "UU-BENEFITS-ID-DOCUMENTATION-ASSISTANCE",
+            "name": "ID/Documentation Assistance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "7cc14f7d-7901-466c-9ccd-52caeaa6b8fc",
+            "code": "UU-BENEFITS-IMMIGRATION-SERVICES",
+            "name": "Immigration Services",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "b7141fab-f70c-450f-9ad5-fdac74e9a138",
+            "code": "UU-BENEFITS-INCOME-SUPPORT",
+            "name": "Income Support",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "e27814ee-9c84-4d4a-9fb2-0d7f98a034f6",
+            "code": "UU-BENEFITS-SNAP-WIC-NUTRITION-BENEFITS",
+            "name": "SNAP/WIC/Nutrition Benefits",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "9d65dac9-0720-40bf-85ec-5d4120f63502",
+            "code": "UU-BENEFITS-UNEMPLOYMENT-INSURANCE",
+            "name": "Unemployment Insurance",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          },
+          {
+            "id": "203f0aff-92d9-459e-838a-ba51416ddcf7",
+            "code": "UU-BENEFITS-VETERANS-BENEFITS",
+            "name": "Veterans Benefits ",
+            "definition": null,
+            "created_at": 0,
+            "updated_at": 0,
+            "_meta": {
+              "_type": "servicetypes_servicetype"
+            }
+          }
+        ],
+        "_meta": {
+          "_type": "facades_servicetypes_filteredparent"
+        }
+      }
+    ],
+    "programs": [
+      {
+        "id": "08fa1e0d-58bf-4eb1-9733-f14b42919992",
+        "name": "DEFAULT",
+        "is_default": false,
+        "_meta": {
+          "_type": "groups_program"
+        }
+      },
+      {
+        "id": "fea14e18-5737-4010-8387-d63b8a0d0aec",
+        "name": "Referred Out of Network",
+        "is_default": true,
+        "_meta": {
+          "_type": "groups_programs_defaultprogram"
+        }
+      }
+    ],
+    "group_type": "external_provider",
+    "primary_contact_name": "",
+    "_meta": {
+      "_type": "facades_groups_referralprogram"
+    }
+  }
+]

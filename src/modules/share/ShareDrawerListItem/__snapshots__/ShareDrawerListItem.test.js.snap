@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShareDrawerListItem renders list item with content 1`] = `
+<li
+  className="share-drawer-list-item additional-class"
+>
+  Share drawer list item
+</li>
+`;

@@ -1,0 +1,14 @@
+.ui-form-renderer {
+  .ui-form-renderer-question-display {
+    &__label {
+      @include avenir-roman-form-label-sm;
+      text-transform: none;
+    }
+    &__value {
+      margin-bottom: 8px;
+    }
+  }
+  .ui-form-renderer-section > h3 {
+    margin-bottom: 10px;
+  }
+}

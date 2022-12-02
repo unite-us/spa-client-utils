@@ -1,0 +1,22 @@
+.share-form {
+  background-color: inherit;
+
+  &__buttons {
+    text-align: right;
+  }
+
+  &__popover-content {
+    max-width: 21em;
+  }
+
+  .sms-cont {
+    display: inline-flex;
+  }
+
+  .info-popover {
+    &__icon {
+      margin-bottom: 4px;
+      margin-left: 3px;
+    }
+  }
+}

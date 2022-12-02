@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SystemAlertBanner displays a banner 1`] = `
+<div
+  className="system-alert-banner"
+>
+  <div
+    className="system-alert-banner__icon"
+  >
+    <svg
+      className="ui-icon"
+      height="28px"
+      id=""
+      style={
+        Object {
+          "display": "inline-block",
+          "fill": "#2C405A",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 27 32"
+      width="28px"
+    >
+      <path
+        d="M18.286 24.571v-2.857q0-0.25-0.161-0.411t-0.411-0.161h-1.714v-9.143q0-0.25-0.161-0.411t-0.411-0.161h-5.714q-0.25 0-0.411 0.161t-0.161 0.411v2.857q0 0.25 0.161 0.411t0.411 0.161h1.714v5.714h-1.714q-0.25 0-0.411 0.161t-0.161 0.411v2.857q0 0.25 0.161 0.411t0.411 0.161h8q0.25 0 0.411-0.161t0.161-0.411zM16 8.571v-2.857q0-0.25-0.161-0.411t-0.411-0.161h-3.429q-0.25 0-0.411 0.161t-0.161 0.411v2.857q0 0.25 0.161 0.411t0.411 0.161h3.429q0.25 0 0.411-0.161t0.161-0.411zM27.429 16q0 3.732-1.839 6.884t-4.991 4.991-6.884 1.839-6.884-1.839-4.991-4.991-1.839-6.884 1.839-6.884 4.991-4.991 6.884-1.839 6.884 1.839 4.991 4.991 1.839 6.884z"
+      />
+    </svg>
+  </div>
+  <div
+    className="system-alert-banner__text-container"
+  >
+    this is great, really
+  </div>
+  <div
+    className="system-alert-banner__dismiss-container"
+  >
+    <button
+      className="system-alert-banner__dismiss"
+      id="system-alert-banner-dismiss-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        className="ui-icon"
+        height="12px"
+        id=""
+        style={
+          Object {
+            "display": "inline-block",
+            "fill": "#FFF",
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 21 21"
+        width="12px"
+      >
+        <g>
+          <path
+            d="M2.592.044l18.364 18.364-2.548 2.548L.044 2.592z"
+          />
+          <path
+            d="M0 18.364L18.364 0l2.548 2.548L2.548 20.912z"
+          />
+        </g>
+      </svg>
+    </button>
+  </div>
+</div>
+`;

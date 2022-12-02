@@ -1,0 +1,14 @@
+.share-drawer-list-item {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 15px;
+
+  &::before {
+    display: none;
+  }
+
+  border-top: 1px solid $field-border-color;
+  &:last-child {
+    border-bottom: 1px solid $field-border-color;
+  }
+}

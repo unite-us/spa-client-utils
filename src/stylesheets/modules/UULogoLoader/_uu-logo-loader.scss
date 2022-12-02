@@ -1,0 +1,55 @@
+.ui-uu-logo-loader {
+  @keyframes part-1-animation {
+    0% {opacity: 0;}
+    13.16% {opacity: 1;}
+    100% {opacity: 1;}
+  }
+  @keyframes part-2-animation {
+    0% {opacity: 0;}
+    18.42% {opacity: 0;}
+    31.58% {opacity: 1;}
+    100% {opacity: 1;}
+  }
+  @keyframes part-3-animation {
+    0% {opacity: 0;}
+    36.84% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 1;}
+  }
+  @keyframes part-4-animation {
+    0% {opacity: 0;}
+    55.26% {opacity: 0;}
+    68.42% {opacity: 1;}
+    100% {opacity: 1;}
+  }
+  @keyframes part-5-animation {
+    0% {opacity: 0;}
+    74.56% {opacity: 0;}
+    86.84% {opacity: 1;}
+    100% {opacity: 1;}
+  }
+
+  #uu-logo > * {
+    fill: #2C405A;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    animation-duration: 3.8s;
+    opacity: 0;
+  }
+
+  #part-1 {
+    animation-name: part-1-animation;
+  }
+  #part-2 {
+    animation-name: part-2-animation;
+  }
+  #part-3 {
+    animation-name: part-3-animation;
+  }
+  #part-4 {
+    animation-name: part-4-animation;
+  }
+  #part-5 {
+    animation-name: part-5-animation;
+  }
+}

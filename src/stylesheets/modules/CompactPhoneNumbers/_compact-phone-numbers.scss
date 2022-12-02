@@ -1,0 +1,71 @@
+@import '~@unite-us/ui/src/stylesheets/variables';
+
+.ui-contact-information__compact-phone {
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 20px;
+
+  .ui-provider-card__icon-text--phone {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .program-details__icon--phone {
+    width: 16px;
+    height: 16px;
+  }
+
+  .ui-button--link {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  .ui-button__icon-right {
+    transform: none;
+    svg {
+      transform: translateY(-2px);
+    }
+  }
+
+  &.expanded {
+    .ui-button__icon-right {
+      svg {
+        transform: rotate(180deg) translateY(-1px);
+      }
+    }
+  }
+
+  .ui-button__icon-right,
+  .ui-provider-card__icon-text--phone {
+    svg {
+      fill: $united-blue-color;
+    }
+  }
+
+  .phone-number {
+    padding-left: 30px;
+    margin-top: 5px;
+    line-height: 20px;
+    a {
+      white-space: nowrap;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+    
+    &__phone-type {
+      text-transform: capitalize;
+    }
+
+    &__is-primary {
+      font-style: italic;
+    }
+
+    &__toggle {
+      margin-top: 5px;
+    }
+  }
+}

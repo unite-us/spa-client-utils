@@ -1,0 +1,15 @@
+.ui-form-checkbox-group {
+  .ui-checkbox-field {
+    .ui-form-field__error,
+    .ui-form-field__hint {
+      display: none;
+    }
+  }
+  & > .ui-form-field__label {
+      @include avenir-roman-form-label-sm;
+      text-transform: none;
+  }
+  &.ui-form-field--has-error > .ui-form-field__label {
+    color: $rosso-color;
+  }
+}

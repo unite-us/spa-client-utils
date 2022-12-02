@@ -1,0 +1,35 @@
+// @todos (KG)
+// - Remove !important from fill and margin-top
+.info-panel {
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-start;
+  background-color: inherit; // was #EDF5FC
+
+  &__icon {
+    flex: 0 1 auto;
+    fill: $display-color !important;
+    height: 15px;
+    width: 13px;
+  }
+
+  &__text {
+    margin-top: -1px !important; // Line up text with icon, eeeek (KG)
+    padding: 0 10px;
+    font-size: 13px;
+    flex: 0 1 95%;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .note-disclosure {
+    &__icon {
+      flex: 0 0 10%;
+    }
+
+    &__text {
+      flex: 0 0 90%;
+    }
+  }
+}

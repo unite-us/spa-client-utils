@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailAddress renders email address as mailto link 1`] = `
+<span
+  className="ui-email-address"
+>
+  <a
+    href="mailto:email@address.com"
+    title="email@address.com"
+  >
+    email@address.com
+  </a>
+</span>
+`;
+
+exports[`EmailAddress renders email address as plain text 1`] = `
+<span
+  className="ui-email-address"
+>
+  email@address.com
+</span>
+`;

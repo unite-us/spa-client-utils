@@ -1,0 +1,21 @@
+.service-types-checkboxes {
+  &__container {
+    max-height: 400px;
+    overflow: auto;
+  }
+
+  .service-types-checkbox {
+    &__parent {
+      label {
+        @include avenir-medium;
+      }
+    }
+    &__child {
+      padding-left: 15px;
+      label {
+        @include avenir-roman;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,64 @@
+.expandable-container {
+  position: relative;
+
+  &__header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em 0;
+    text-transform: capitalize;
+    & > * {
+      flex: 0 0 auto;
+      margin-right: 10px;
+    }
+    & > h4 {
+      flex: 1 1 auto;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+  &__content {
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    &-children {
+      display: table;
+      width: 100%;
+    }
+    &.open {
+      height: inherit !important;
+    }
+  }
+  &__toggle {
+    position: relative;
+    top: -18px;
+    &.top-right,
+    &.right {
+      display: block;
+      text-align: right;
+      width: 100%;
+    }
+    &.top-right,
+    &.top-left {
+      top: unset;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .gradient-svg {
+    height: 1.5em;
+    width: 100%;
+    position: relative;
+    transition: opacity 0.3s ease-in-out;
+    top: -20px;
+    opacity: 1;
+    rect {
+      height: 100%;
+      width: 100%;
+    }
+    &.open {
+      opacity: 0;
+    }
+
+  }
+}

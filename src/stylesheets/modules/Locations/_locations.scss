@@ -1,0 +1,42 @@
+.ui-location {
+  &__address {
+    align-items: start;
+    display: flex;
+
+    &-name {
+      display: flex;
+      flex-flow: wrap;
+      text-transform: capitalize;
+
+      &-more {
+        color: $united-blue-color;
+      }
+    }
+  }
+
+  &__content {
+    line-height: 1.6;
+  }
+
+  &__icon {
+    flex: 0 0 16px;
+  }
+
+  &__phone {
+    text-transform: capitalize;
+  }
+
+  &__container {
+    border-bottom: 1px solid $field-border-color;
+
+    &:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  .ui-icon-spacer {
+    width: 16px;
+  }
+}

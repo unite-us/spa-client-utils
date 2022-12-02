@@ -1,0 +1,10 @@
+.share-drawer {
+  &__header {
+    border-bottom: 1px solid $field-border-color;
+    padding: 15px;
+  }
+
+  &__share-form {
+    padding: 15px;
+  }
+}

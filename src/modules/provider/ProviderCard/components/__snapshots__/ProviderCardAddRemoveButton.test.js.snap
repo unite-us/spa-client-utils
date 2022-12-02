@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProviderCardAddRemoveButton renders add button 1`] = `
+<div
+  className="provider-card-add-remove-button another-class-name"
+>
+  <div
+    className="ui-add-remove-buttons"
+  >
+    <div
+      className="ui-add-remove-buttons__add"
+    >
+      <a
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+        title="Add"
+      >
+        <mock-icon />
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProviderCardAddRemoveButton renders remove button 1`] = `
+<div
+  className="provider-card-add-remove-button another-class-name"
+>
+  <div
+    className="ui-add-remove-buttons"
+  >
+    <div
+      className="ui-add-remove-buttons__remove mr-quarter"
+    >
+      <a
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+        title="Remove"
+      >
+        <mock-icon />
+      </a>
+    </div>
+  </div>
+</div>
+`;

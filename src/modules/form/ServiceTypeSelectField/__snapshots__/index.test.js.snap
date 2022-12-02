@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceTypeSelectField renders 1`] = `
+<div
+  className="ui-select-field ui-form-field"
+  style={Object {}}
+>
+  <label
+    className="ui-form-field__label"
+    htmlFor=""
+    style={Object {}}
+  >
+    Service Type
+  </label>
+  <div
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <div
+      className=""
+      data-test-element="dropdown_undefined"
+    >
+      <select
+        id=""
+        multiple={false}
+      />
+    </div>
+    <div
+      className="ui-form-field__hint"
+      style={Object {}}
+    >
+      
+    </div>
+    <div
+      className="ui-form-field__error"
+      style={Object {}}
+    />
+  </div>
+</div>
+`;

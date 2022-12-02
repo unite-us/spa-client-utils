@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllOrOne returns all the collection if showAll is true 1`] = `
+Array [
+  <div>
+    <p
+      title="123 lol Street, Funmouth, MA 12345"
+    >
+      123 lol Street, Funmouth, MA 12345
+       (
+      11.41 mi
+      )
+    </p>
+  </div>,
+  <div>
+    <p
+      title="123 Street, Funmouth, MA 12345"
+    >
+      123 Street, Funmouth, MA 12345
+       (
+      40.29 mi
+      )
+    </p>
+  </div>,
+]
+`;
+
+exports[`AllOrOne returns null if nothing is passed in 1`] = `null`;
+
+exports[`AllOrOne returns null if the collection is empty 1`] = `null`;
+
+exports[`AllOrOne returns null if the collection is empty and showAll is true 1`] = `null`;
+
+exports[`AllOrOne returns null nothing is passed in and showAll is true 1`] = `null`;
+
+exports[`AllOrOne returns the first in a collection if showAll is false 1`] = `
+<div>
+  <p
+    title="123 lol Street, Funmouth, MA 12345"
+  >
+    123 lol Street, Funmouth, MA 12345
+     (
+    11.41 mi
+    )
+  </p>
+</div>
+`;

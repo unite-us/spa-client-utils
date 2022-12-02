@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterBadge renders a blue (background) badge 1`] = `
+<span
+  aria-label=""
+  className="badge filter-badge"
+  id=""
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "color": "#4A657F",
+    }
+  }
+>
+  Deputy's Badge
+</span>
+`;
+
+exports[`FilterBadge renders a white badge with text 1`] = `
+<span
+  aria-label=""
+  className="badge filter-badge"
+  id=""
+  style={
+    Object {
+      "backgroundColor": "white",
+      "color": "#4A657F",
+    }
+  }
+>
+  Sheriff's Badge
+</span>
+`;
+
+exports[`FilterBadge returns null when no text passed 1`] = `null`;

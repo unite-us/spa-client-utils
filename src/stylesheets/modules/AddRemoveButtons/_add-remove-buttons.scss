@@ -1,0 +1,12 @@
+.ui-add-remove-buttons {
+  display: flex;
+  flex: 0 1 auto;
+  margin-top: 6px;
+
+  &__add,
+  &__remove {
+    svg {
+      fill: $silver-color;
+    }
+  }
+}

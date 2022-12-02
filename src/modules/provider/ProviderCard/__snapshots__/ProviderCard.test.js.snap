@@ -1,0 +1,789 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProviderCard renders 1`] = `
+<div
+  className="ui-provider-card"
+>
+  <div
+    className="ui-provider-card__info"
+  >
+    <div
+      className="ui-provider-card__detail"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <h4
+        className="ui-provider-card__name"
+      >
+        Testing Org [DEV only]
+      </h4>
+      <p
+        className="ui-provider-card__address mb-quarter"
+        title="10 Columbus Circle, New York, NY 10019"
+      >
+        <mock-icon />
+        10 Columbus Circle, New York, NY 10019
+      </p>
+      <p
+        className="ui-provider-card__hours mb-quarter"
+      >
+        <span>
+          <mock-icon />
+        </span>
+        <span>
+          TODAY: 
+        </span>
+        <span>
+          9:00 AM - 5:00 PM
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__phone mb-quarter"
+      >
+        <a
+          href="tel:+12128921010"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          (212) 892-1010
+        </a>
+      </p>
+      <p
+        className="ui-provider-card__email mb-quarter"
+      >
+        <span>
+          <mock-icon />
+          <span
+            className="ui-email-address"
+          >
+            <a
+              href="mailto:test@manager.com"
+              title="test@manager.com"
+            >
+              test@manager.com
+            </a>
+          </span>
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__url mb-quarter"
+      >
+        <a
+          href="http://www.app.uniteusdev.com/"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          http://www.app.uniteusdev.com/
+        </a>
+      </p>
+    </div>
+  </div>
+  <div
+    className="provider-card-add-remove-button"
+  >
+    <div
+      className="ui-add-remove-buttons"
+    >
+      <div
+        className="ui-add-remove-buttons__add"
+      >
+        <a
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+          title="Add"
+        >
+          <mock-icon />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProviderCard renders disabled 1`] = `
+<div
+  className="ui-provider-card"
+>
+  <div
+    className="ui-provider-card__info ui-provider-card__info-disabled"
+  >
+    <div
+      className="ui-provider-card__detail"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <h4
+        className="ui-provider-card__name"
+      >
+        Testing Org [DEV only]
+      </h4>
+      <p
+        className="ui-provider-card__address mb-quarter"
+        title="10 Columbus Circle, New York, NY 10019"
+      >
+        <mock-icon />
+        10 Columbus Circle, New York, NY 10019
+      </p>
+      <p
+        className="ui-provider-card__hours mb-quarter"
+      >
+        <span>
+          <mock-icon />
+        </span>
+        <span>
+          TODAY: 
+        </span>
+        <span>
+          9:00 AM - 5:00 PM
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__phone mb-quarter"
+      >
+        <a
+          href="tel:+12128921010"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          (212) 892-1010
+        </a>
+      </p>
+      <p
+        className="ui-provider-card__email mb-quarter"
+      >
+        <span>
+          <mock-icon />
+          <span
+            className="ui-email-address"
+          >
+            <a
+              href="mailto:test@manager.com"
+              title="test@manager.com"
+            >
+              test@manager.com
+            </a>
+          </span>
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__url mb-quarter"
+      >
+        <a
+          href="http://www.app.uniteusdev.com/"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          http://www.app.uniteusdev.com/
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProviderCard renders multiple service types 1`] = `
+<div
+  className="ui-provider-card"
+>
+  <div
+    className="ui-provider-card__info"
+  >
+    <div
+      className="ui-provider-card__detail"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <h4
+        className="ui-provider-card__name"
+      >
+        Testing Org [DEV only]
+      </h4>
+      <p
+        className="ui-provider-card__address mb-quarter"
+        title="10 Columbus Circle, New York, NY 10019"
+      >
+        <mock-icon />
+        10 Columbus Circle, New York, NY 10019
+      </p>
+      <p
+        className="ui-provider-card__hours mb-quarter"
+      >
+        <span>
+          <mock-icon />
+        </span>
+        <span>
+          TODAY: 
+        </span>
+        <span>
+          9:00 AM - 5:00 PM
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__phone mb-quarter"
+      >
+        <a
+          href="tel:+12128921010"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          (212) 892-1010
+        </a>
+      </p>
+      <p
+        className="ui-provider-card__email mb-quarter"
+      >
+        <span>
+          <mock-icon />
+          <span
+            className="ui-email-address"
+          >
+            <a
+              href="mailto:test@manager.com"
+              title="test@manager.com"
+            >
+              test@manager.com
+            </a>
+          </span>
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__url mb-quarter"
+      >
+        <a
+          href="http://www.app.uniteusdev.com/"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          http://www.app.uniteusdev.com/
+        </a>
+      </p>
+    </div>
+  </div>
+  <div
+    className="provider-card-add-remove-button"
+  >
+    <div
+      className="ui-add-remove-buttons"
+    >
+      <div
+        className="ui-add-remove-buttons__add"
+      >
+        <a
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+          title="Add"
+        >
+          <mock-icon />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProviderCard renders unselectable 1`] = `
+<div
+  className="ui-provider-card"
+>
+  <div
+    className="ui-provider-card__info"
+  >
+    <div
+      className="ui-provider-card__detail"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <h4
+        className="ui-provider-card__name"
+      >
+        Testing Org [DEV only]
+      </h4>
+      <p
+        className="ui-provider-card__address mb-quarter"
+        title="10 Columbus Circle, New York, NY 10019"
+      >
+        <mock-icon />
+        10 Columbus Circle, New York, NY 10019
+      </p>
+      <p
+        className="ui-provider-card__hours mb-quarter"
+      >
+        <span>
+          <mock-icon />
+        </span>
+        <span>
+          TODAY: 
+        </span>
+        <span>
+          9:00 AM - 5:00 PM
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__phone mb-quarter"
+      >
+        <a
+          href="tel:+12128921010"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          (212) 892-1010
+        </a>
+      </p>
+      <p
+        className="ui-provider-card__email mb-quarter"
+      >
+        <span>
+          <mock-icon />
+          <span
+            className="ui-email-address"
+          >
+            <a
+              href="mailto:test@manager.com"
+              title="test@manager.com"
+            >
+              test@manager.com
+            </a>
+          </span>
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__url mb-quarter"
+      >
+        <a
+          href="http://www.app.uniteusdev.com/"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          http://www.app.uniteusdev.com/
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProviderCard renders with no service types 1`] = `
+<div
+  className="ui-provider-card"
+>
+  <div
+    className="ui-provider-card__info"
+  >
+    <div
+      className="ui-provider-card__detail"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <h4
+        className="ui-provider-card__name"
+      >
+        Testing Org [DEV only]
+      </h4>
+      <p
+        className="ui-provider-card__address mb-quarter"
+        title="10 Columbus Circle, New York, NY 10019"
+      >
+        <mock-icon />
+        10 Columbus Circle, New York, NY 10019
+      </p>
+      <p
+        className="ui-provider-card__hours mb-quarter"
+      >
+        <span>
+          <mock-icon />
+        </span>
+        <span>
+          TODAY: 
+        </span>
+        <span>
+          9:00 AM - 5:00 PM
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__phone mb-quarter"
+      >
+        <a
+          href="tel:+12128921010"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          (212) 892-1010
+        </a>
+      </p>
+      <p
+        className="ui-provider-card__email mb-quarter"
+      >
+        <span>
+          <mock-icon />
+          <span
+            className="ui-email-address"
+          >
+            <a
+              href="mailto:test@manager.com"
+              title="test@manager.com"
+            >
+              test@manager.com
+            </a>
+          </span>
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__url mb-quarter"
+      >
+        <a
+          href="http://www.app.uniteusdev.com/"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          http://www.app.uniteusdev.com/
+        </a>
+      </p>
+    </div>
+  </div>
+  <div
+    className="provider-card-add-remove-button"
+  >
+    <div
+      className="ui-add-remove-buttons"
+    >
+      <div
+        className="ui-add-remove-buttons__add"
+      >
+        <a
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+          title="Add"
+        >
+          <mock-icon />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProviderCard shows indication for OON provider 1`] = `
+<div
+  className="ui-provider-card"
+>
+  <div
+    className="ui-provider-card__info"
+  >
+    <div
+      className="ui-provider-card__detail"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <div
+        className="ui-provider-card__oon"
+      >
+        <mock-icon />
+        <span>
+          Out of Network Organization
+        </span>
+      </div>
+      <h4
+        className="ui-provider-card__name"
+      >
+        Testing Org [DEV only]
+      </h4>
+      <p
+        className="ui-provider-card__address mb-quarter"
+        title="10 Columbus Circle, New York, NY 10019"
+      >
+        <mock-icon />
+        10 Columbus Circle, New York, NY 10019
+      </p>
+      <p
+        className="ui-provider-card__hours mb-quarter"
+      >
+        <span>
+          <mock-icon />
+        </span>
+        <span>
+          TODAY: 
+        </span>
+        <span>
+          9:00 AM - 5:00 PM
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__phone mb-quarter"
+      >
+        <a
+          href="tel:+12128921010"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          (212) 892-1010
+        </a>
+      </p>
+      <p
+        className="ui-provider-card__email mb-quarter"
+      >
+        <span>
+          <mock-icon />
+          <span
+            className="ui-email-address"
+          >
+            <a
+              href="mailto:test@manager.com"
+              title="test@manager.com"
+            >
+              test@manager.com
+            </a>
+          </span>
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__url mb-quarter"
+      >
+        <a
+          href="http://www.app.uniteusdev.com/"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          http://www.app.uniteusdev.com/
+        </a>
+      </p>
+    </div>
+  </div>
+  <div
+    className="provider-card-add-remove-button"
+  >
+    <div
+      className="ui-add-remove-buttons"
+    >
+      <div
+        className="ui-add-remove-buttons__add"
+      >
+        <a
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+          title="Add"
+        >
+          <mock-icon />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProviderCard shows indication for external providers (same as OON) 1`] = `
+<div
+  className="ui-provider-card"
+>
+  <div
+    className="ui-provider-card__info"
+  >
+    <div
+      className="ui-provider-card__detail"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <div
+        className="ui-provider-card__oon"
+      >
+        <mock-icon />
+        <span>
+          Out of Network Organization
+        </span>
+      </div>
+      <h4
+        className="ui-provider-card__name"
+      >
+        Testing Org [DEV only]
+      </h4>
+      <p
+        className="ui-provider-card__address mb-quarter"
+        title="10 Columbus Circle, New York, NY 10019"
+      >
+        <mock-icon />
+        10 Columbus Circle, New York, NY 10019
+      </p>
+      <p
+        className="ui-provider-card__hours mb-quarter"
+      >
+        <span>
+          <mock-icon />
+        </span>
+        <span>
+          TODAY: 
+        </span>
+        <span>
+          9:00 AM - 5:00 PM
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__phone mb-quarter"
+      >
+        <a
+          href="tel:+12128921010"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          (212) 892-1010
+        </a>
+      </p>
+      <p
+        className="ui-provider-card__email mb-quarter"
+      >
+        <span>
+          <mock-icon />
+          <span
+            className="ui-email-address"
+          >
+            <a
+              href="mailto:test@manager.com"
+              title="test@manager.com"
+            >
+              test@manager.com
+            </a>
+          </span>
+        </span>
+      </p>
+      <p
+        className="ui-provider-card__url mb-quarter"
+      >
+        <a
+          href="http://www.app.uniteusdev.com/"
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span>
+            <mock-icon />
+          </span>
+          http://www.app.uniteusdev.com/
+        </a>
+      </p>
+    </div>
+  </div>
+  <div
+    className="provider-card-add-remove-button"
+  >
+    <div
+      className="ui-add-remove-buttons"
+    >
+      <div
+        className="ui-add-remove-buttons__add"
+      >
+        <a
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+          title="Add"
+        >
+          <mock-icon />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
